@@ -1,0 +1,48 @@
+body{
+
+	font-family: Tahoma;
+	src: local('Tahoma'), local('Tahoma'), url(../fonts/tahoma.ttf) format('ttf');
+	font-style: normal;
+	font-size: 13px;
+	color: #000000;
+	font-weight: normal;
+	background-color: #f7f7f7;
+}
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.menu{
+	background: #3889ca;
+	color: #000000;
+}
+.navbar-brand{
+	position: relative;
+	top: -10px;
+}
+.dropdown.menu{
+	background: #ffffff;
+	color: #000000;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px){
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+}
+

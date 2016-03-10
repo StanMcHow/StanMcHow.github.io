@@ -1,0 +1,173 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  background: #f7f7f7;
+}
+.navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 1px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.navbar-form .form-control {
+    width: 300px !important;
+    background: #67abe2;
+    border: none;
+}
+.navbar-form .btn {
+    background: #67abe2;
+    border: none;
+    color: #ffffff;
+}
+.form-control{
+	height: 32px;
+}
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+ .switch{
+ 	position: absolute;
+ 	left: 0px;
+ 	top: 17px;
+ 	cursor: pointer;
+ }
+.navbar-fixed-top {
+  border: 0;
+}
+.navbar{
+	background: #3889ca;
+	color: #ffffff;
+}
+.navbar .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-right{
+	background: #3889ca;
+	color: #ffffff;
+}
+.navbar .navbar-brand{
+	position: relative;
+	top: -10px;
+	color: #ffffff;
+}
+.dropdown-toggle img{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #67abe2;
+ }
+.navbar .navbar-nav >li >a:hover{
+	color: #ffffff;
+	background: #67abe2;
+}
+.navbar .navbar-nav >li >a:focus{
+	color: #ffffff;
+	background: #67abe2;
+}
+
+.navbar-nav li a {
+    line-height:3em;
+    padding:5px 10px;
+}
+.nav-sidebar{
+	background: #f2f2f2;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+.nav-sidebar  {
+  color: #616161;
+}
+.nav-sidebar > li > a >span > img {
+  padding-right: 10px;
+}
+.nav-sidebar .divider {
+  border-top: 12px solid #dadada !important;
+  border-bottom: 12px solid #dadada !important;     
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
