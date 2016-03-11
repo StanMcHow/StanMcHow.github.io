@@ -16,6 +16,12 @@ body {
   overflow: hidden;
   background-color: #e5e5e5;
 }
+.nav-sidebar > li > a{
+  text-align: left;
+}
+.nav-sidebar>p{
+  text-align: center;
+}
 .navbar-form .form-control {
     width: 300px !important;
     background: #67abe2;
@@ -50,6 +56,7 @@ body {
  	position: absolute;
  	left: 0px;
  	top: 17px;
+  z-index: 1;
  	cursor: pointer;
  }
 .navbar-fixed-top {
@@ -75,6 +82,45 @@ body {
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
+
+.icon {
+  width: 25px;
+  height: 27px;
+  float: left;
+  background: url(../img/icon.gif) no-repeat;
+}
+
+.history .icon {
+  background-position: 0 0px; /* вверх на 16px */
+  cursor: pointer;
+}
+.surgeries .icon {
+  background-position: 0 -27px; /* вверх на 16px */
+  cursor: pointer;
+}
+
+.medications .icon {
+  background-position: 0 -54px; /* по умолчанию */
+  cursor: pointer;
+}
+
+.allergies .icon {
+  background-position: 0 -79px; /* вверх на 32px */
+  cursor: text;
+}
+.immunisations .icon {
+  background-position: 0 -106px; /* вверх на 32px */
+  cursor: text;
+}
+.family .icon {
+  background-position: 0 -132px; /* вверх на 32px */
+  cursor: text;
+}
+
+.navbar-right .dropdown{
+  padding-right: 20px;
+}
+
 
 .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
@@ -107,7 +153,7 @@ body {
 }
 @media (min-width: 768px) {
   .sidebar {
-    position: fixed;
+    position: absolute;
     top: 51px;
     bottom: 0;
     left: 0;
@@ -126,6 +172,8 @@ body {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
+  padding-top:  10px !important;
+  font-size: 20px !important;
 }
 .nav-sidebar > li > a {
   padding-right: 20px;
@@ -144,8 +192,8 @@ body {
   padding-right: 10px;
 }
 .nav-sidebar .divider {
-  border-top: 12px solid #dadada !important;
-  border-bottom: 12px solid #dadada !important;     
+  border-top: 12px solid #dadada;
+  border-bottom: 12px solid #dadada;     
 }
 
 /*
@@ -171,3 +219,164 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*hiden sidebar*/
+
+
+body{
+  overflow-x: hidden;
+  background-color: #dddddd;
+}
+
+.nav-sidebar {
+  left: 250px;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  margin-left: -250px;  
+  overflow-y: auto;
+  padding: 0;
+  position: fixed; 
+  top: 50px;
+  width: 0;
+  z-index: 1000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+} 
+#change.toggled .nav-sidebar {
+    width: 250px;
+}
+.nav-sidebar .navbar-collapse {
+  padding: 0;
+  max-height: none;
+}
+.nav-sidebar ul {
+  float: none;
+  width: 100%;
+}
+.nav-sidebar ul:not {
+  display: block;
+}
+.nav-sidebar li {
+  float: none;
+  display: block;
+}
+.nav-sidebar li a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.nav-sidebar .open .dropdown-menu {
+  position: static;
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 5px 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.nav-sidebar .open .dropdown-menu > li > a {
+  padding: 5px 15px 5px 25px;
+}
+.nav-sidebar .navbar-brand {
+  width: 100%;
+}
+.nav-sidebar .open > a > b.caret {
+  border-top: none;
+  border-bottom: 4px solid;
+}
+.nav-sidebar .navbar-nav {
+  margin: 0;
+}
+
+#change {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#change.toggled {
+    padding-left: 250px;
+}
+#page {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+  top: 50px;
+}
+#change.toggled #page {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.sidebar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.sidebar-toggle:focus {
+  outline: 0;
+}
+.sidebar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.sidebar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.navbar .sidebar-toggle {
+  border-color: #ddd;
+}
+.navbar .sidebar-toggle:hover,
+.navbar .sidebar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar .sidebar-toggle .icon-bar {
+  background-color: #888;
+}
+
+@media(min-width:768px) {
+    #change {
+        padding-left: 250px;
+    }
+    #change.toggled {
+        padding-left: 0;
+    }
+    #page {
+        padding: 20px;
+        position: relative;
+    }
+    #change.toggled #page {
+        position: relative;
+        margin-right: 0;
+    }
+  .nav-sidebar {
+    width: 250px;;
+  }
+  #change.toggled .nav-sidebar {
+    width: 0;
+    }
+}
+  
