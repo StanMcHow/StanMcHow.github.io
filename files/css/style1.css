@@ -6,6 +6,31 @@
 body {
   padding-top: 50px;
   background: #f7f7f7;
+  overflow-x: hidden;
+}
+.navbar{
+  background: #3889ca;
+  color: #ffffff;
+  border: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, .25)
+
+}
+.navbar .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar .navbar-brand{
+  position: relative;
+  top: -10px;
+  color: #ffffff;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #67abe2;
+ }
+.navbar .navbar-nav >li >a:hover,
+.navbar .navbar-nav >li >a:focus{
+  color: #ffffff;
+  background: #67abe2;
 }
 .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
@@ -39,6 +64,23 @@ body {
   color: #ffffff;
   opacity: 1;
 }
+.content .navbar-nav {
+  background: #ffffff;
+   width: 100%;
+  text-align: center;
+}
+.content .navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
+    .content .navbar-nav > li > a {
+      color: #262626;
+    }
+    .content .navbar-nav > li > a:hover,
+     .content .navbar-nav > li > a:focus{
+      color: #262626;
+       background: #f7f7f7;
+    }
 /*
  * Global add-ons
  */
@@ -62,78 +104,100 @@ body {
 .navbar-fixed-top {
   border: 0;
 }
-.navbar{
-	background: #3889ca;
-	color: #ffffff;
-}
-.navbar .navbar-nav > li > a {
-  color: #ffffff;
-}
+
 .navbar-right{
 	background: #3889ca;
 	color: #ffffff;
 }
-.navbar .navbar-brand{
-	position: relative;
-	top: -10px;
-	color: #ffffff;
-}
+
 .dropdown-toggle img{
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
 
 .icon {
-  width: 25px;
-  height: 27px;
+  position: relative;
+  width: 47px;
+  height: 37px;
   float: left;
   background: url(../img/icon.gif) no-repeat;
+  z-index: 1;
 }
 
 .history .icon {
-  background-position: 0 0px; /* вверх на 16px */
+  background-position: 10px 10px; 
   cursor: pointer;
 }
 .surgeries .icon {
-  background-position: 0 -27px; /* вверх на 16px */
+  background-position: 10px -40px; 
   cursor: pointer;
 }
 
 .medications .icon {
-  background-position: 0 -54px; /* по умолчанию */
+  background-position: 10px -98px; 
   cursor: pointer;
 }
 
 .allergies .icon {
-  background-position: 0 -79px; /* вверх на 32px */
+  background-position: 10px -155px; 
   cursor: text;
 }
 .immunisations .icon {
-  background-position: 0 -106px; /* вверх на 32px */
+  background-position: 10px -212px; 
   cursor: text;
 }
 .family .icon {
-  background-position: 0 -132px; /* вверх на 32px */
+  background-position: 10px -269px; 
   cursor: text;
 }
+
+
+.icon1 {
+  position: relative;
+  width: 75px;
+  height: 37px;
+  float: none;
+  background: url(../img/icon1.gif) no-repeat;
+  z-index: 1;
+}
+
+.all .icon1 {
+  background-position: 25px 0px; 
+  cursor: pointer;
+}
+.office .icon1 {
+  background-position: -65px 0px; 
+  cursor: pointer;
+}
+.hospital .icon1 {
+  background-position: -166px 0px; 
+  cursor: pointer;
+}
+.labs .icon1 {
+  background-position: -266px 0px; 
+  cursor: pointer;
+}
+.imaging .icon1 {
+  background-position: -367px 0px; 
+  cursor: pointer;
+}
+.procedures .icon1 {
+  background-position: -470px 0px; 
+  cursor: pointer;
+}
+.pathology .icon1 {
+  background-position: -566px 0px; 
+  cursor: pointer;
+}
+    
+
 
 .navbar-right .dropdown{
   padding-right: 20px;
 }
 
 
-.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #67abe2;
- }
-.navbar .navbar-nav >li >a:hover{
-	color: #ffffff;
-	background: #67abe2;
-}
-.navbar .navbar-nav >li >a:focus{
-	color: #ffffff;
-	background: #67abe2;
-}
+
 
 .navbar-nav li a {
     line-height:3em;
@@ -159,10 +223,9 @@ body {
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     border-right: 1px solid #eee;
   }
 }
@@ -173,12 +236,16 @@ body {
   margin-bottom: 20px;
   margin-left: -20px;
   padding-top:  10px !important;
-  font-size: 20px !important;
+ font-size: 16px;
 }
+.nav-sidebar .name {
+   font-size: 20px;
+ }
+
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
-}
+  }
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
@@ -232,10 +299,7 @@ body {
 /*hiden sidebar*/
 
 
-body{
-  overflow-x: hidden;
-  background-color: #dddddd;
-}
+
 
 .nav-sidebar {
   left: 250px;
@@ -346,16 +410,7 @@ body{
 .sidebar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-.navbar .sidebar-toggle {
-  border-color: #ddd;
-}
-.navbar .sidebar-toggle:hover,
-.navbar .sidebar-toggle:focus {
-  background-color: #ddd;
-}
-.navbar .sidebar-toggle .icon-bar {
-  background-color: #888;
-}
+
 
 @media(min-width:768px) {
     #change {
