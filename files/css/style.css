@@ -1,48 +1,126 @@
-body{
-
-	font-family: Tahoma;
-	src: local('Tahoma'), local('Tahoma'), url(../fonts/tahoma.ttf) format('ttf');
-	font-style: normal;
-	font-size: 13px;
-	color: #000000;
-	font-weight: normal;
-	background-color: #f7f7f7;
+html {
+	background-image: url(../img/landing.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 }
-
+body {
+	padding-top: 0px;
+	overflow-x: hidden;
+	font-family: "Roboto"; src:url(../fonts/roboto.woff2) format('woff2');
+	background: transparent; color: #ffffff;
 }
-img{
-	max-width: 100%;
-	height: auto;
-}
-.menu{
+.menu {
 	background: #3889ca;
 	color: #000000;
 }
-.navbar-brand{
+.navbar { 
+	background: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	border: 0;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, .25)
+}
+.navbar .navbar-nav > li > a {
+	color: #ffffff; 
+}
+.navbar .navbar-brand {
 	position: relative;
 	top: -10px;
+	color: #ffffff;
+	font-size: 20px;
 }
-.dropdown.menu{
-	background: #ffffff;
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+	background: #3889ca;
+	color: #ffffff;
+}
+.modal {
 	color: #000000;
 }
+.modal img{
+	float: left;
+}
+.navbar-fixed-top {
+	border: 0;
+}
+.navbar-right {
+	background: transparent;
+	color: #ffffff;
+	padding-right: 20px;
+}
+.navbar-right button {
+	background: transparent;
+	border-color: #ffffff;
+	border-width: 2px;
+	color: #ffffff;
+}
+.base {
+	background: transparent;
+	top: 40%;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.modal {
+	left:50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 320px;
+	min-height: 485px !important;
+}
+.modal input {
+	font-size: 18px;
+	height: 50px;
+}
+.modal p {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+.modal .btn {
+	display: block;
+	font-size: 18px;
+	height: 50px;
+}
+.modal .aright {
+	padding-bottom: 15px;
+}
+.modal button {
+	width: 100%;
+}
+.modal-body {
+	height: 100%;
+}
+.modal-dialog, .modal-content {
+	height: 100%;
+}
+.wari {
+	padding-bottom: 15px;
+}
+.war {
+	padding-bottom: 10px;
+}
+.cent {
+	padding-top: 12px;
+}
+.form-control::-webkit-input-placeholder{color: #999;font-size: 18px;}
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px){
-
-}
-
+@media only screen and (max-width: 1200px){}
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 992px){
-
-}
-
+@media only screen and (max-width: 992px){}
 /* Small Devices, Tablets */
-@media only screen and (max-width: 767px){
-
-}
-
+@media only screen and (max-width: 767px){}
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px){
-
-}
+@media only screen and (max-width: 480px){}
 
