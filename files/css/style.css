@@ -77,12 +77,20 @@ body {
 	width: 100%;
 	text-align: center;
 	left:50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translateZ(-50%, -50%);
+   -moz-transform: translateZ(-50%, -50%);
+   -ms-transform: translateZ(-50%, -50%);
+   -o-transform: translateZ(-50%, -50%);
+  	transform: translate(-50%, -50%);
 }
 .modal {
 	color: #000000;
 	left:50%;
 	top: 50%;
+	-webkit-transform: translateZ(-50%, -50%);
+   -moz-transform: translateZ(-50%, -50%);
+   -ms-transform: translateZ(-50%, -50%);
+   -o-transform: translateZ(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 320px;
 	min-height: 485px !important;
