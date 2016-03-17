@@ -99,7 +99,7 @@ body {
  .switch{
  	position: absolute;
  	left: 0px;
- 	top: 17px;
+ 	top: 12px;
   z-index: 1;
  	cursor: pointer;
  }
