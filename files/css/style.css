@@ -11,7 +11,7 @@
 }
 /*background - stable*/
 html {
-  background-image: url(../img/landing.png) (min-height: 100%);
+  background-image: url(../img/landing.png);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,6 +21,7 @@ html {
    -moz-background-size: cover;
    -ms-background-size: cover;
    background-size: cover;
+   min-height: 100%;
 }
 /*body-setting, work stable*/
 body {
