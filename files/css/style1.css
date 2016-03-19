@@ -111,7 +111,7 @@ body{padding-top:50px;background:#f7f7f7;overflow-x:hidden;font-family:"robotore
 /*
  * Main content
  */
- .navbar-static-top{overflow: hidden; overflow-x:auto;}
+ .navbar-static-top{overflow: auto;}
  .nav-scrollable{height: 84px;}
 .navbar-static-top .navbar-nav{min-width: 578px;}
  
