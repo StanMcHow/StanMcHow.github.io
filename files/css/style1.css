@@ -9,6 +9,7 @@ body{padding-top:50px;background:#f7f7f7;overflow:auto;font-family:"robotoregula
 .dropdown-menu .divider {height:1px;margin:1px 0;overflow:hidden;background-color:#e5e5e5;}
 .nav-sidebar > li > a{text-align:left;}
 .nav-sidebar a>p{text-align:center;}
+.nav-sidebar{overflow:auto;}
 .navbar-form .form-control{width:100px !important;background:#67abe2;border:none;}
 @media (min-width: 633px){.navbar-form .form-control{width:200px !important;}}
 @media (min-width: 583px){.navbar-form .form-control{width:150px !important;}}
