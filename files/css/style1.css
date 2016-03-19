@@ -1,22 +1,22 @@
-@font-face{font-family:'robotoregular' !important;src:url('../fonts/Roboto-Regular-webfont.eot') !important;src:url('../fonts/Roboto-Regular-webfont.eot?#iefix')format('embedded-opentype'),url('../fonts/Roboto-Regular-webfont.woff')format('woff'),url('../fonts/Roboto-Regular-webfont.ttf')format('truetype'),url('../fonts/Roboto-Regular-webfont.svg#robotoregular')format('svg') !important;font-weight:normal !important;font-style:normal !important;}
-body{padding-top:50px;background:#f7f7f7;overflow-x:hidden;font-family:"robotoregular" !important;}
+@font-face{font-family:'robotoregular';src:url('../fonts/Roboto-Regular-webfont.eot');src:url('../fonts/Roboto-Regular-webfont.eot?#iefix')format('embedded-opentype'),url('../fonts/Roboto-Regular-webfont.woff')format('woff'),url('../fonts/Roboto-Regular-webfont.ttf')format('truetype'),url('../fonts/Roboto-Regular-webfont.svg#robotoregular')format('svg');font-weight:normal;font-style:normal;}
+body{padding-top:50px;background:#f7f7f7;overflow-x:hidden;font-family:"robotoregular";}
 .navbar{background: #3889ca;color: #ffffff;border: 0;box-shadow: 2px 0 5px rgba(0, 0, 0, .25);}
-.navbar-toggle .icon-bar {
-  background-color: #000 !important;
-  color: #000;
-}
 .navbar .navbar-nav > li > a {color:#ffffff;}
-.navbar .navbar-brand{position:relative;top:-10px;color:#ffffff;font-size:20px;left:10px;}
+.navbar .navbar-brand{position:relative;top:-10px;color:#ffffff;left:10px;}
 .navbar .navbar-nav .open .dropdown-menu > .active > a:focus{color:#ffffff;background-color:#67abe2;}
 .navbar .navbar-nav >li >a:hover,.navbar .navbar-nav >li >a:focus{color:#ffffff;background:#67abe2;}
 .navbar-nav .open .dropdown-menu > li > a {line-height:20px;}
 .dropdown-menu .divider {height:1px;margin:1px 0;overflow:hidden;background-color:#e5e5e5;}
 .nav-sidebar > li > a{text-align:left;}
-.nav-sidebar a>p{text-align:center !important;}
-.navbar-form .form-control{width:300px !important;background:#67abe2;border:none;}
+.nav-sidebar a>p{text-align:center;}
+.navbar-form .form-control{width:100px !important;background:#67abe2;border:none;}
+@media (min-width: 631px){.navbar-form .form-control{width:200px !important;}}
+@media (min-width: 581px){.navbar-form .form-control{width:150px !important;}}
+@media (min-width: 681px){.navbar-form .form-control{width:250px !important;}}
 .navbar-form .btn {background: #67abe2;border:none;color:#ffffff;}
-.form-control{height:32px;}
-.form-control::-webkit-input-placeholder{color:#ffffff;opacity:1;}
+.navbar-form .form-control{height:32px;}
+.navbar-form .form-control::-webkit-input-placeholder{color:#ffffff;opacity:1;}
+.navbar-form .form-control {color: #ffffff;}
 .content .navbar-nav{background:#ffffff;width:100%;text-align:center;}
 .content .navbar-nav > li {float:none;display:inline-block;}
 .content .navbar-nav > li > a {padding-bottom:0px;color:#262626;}
@@ -27,70 +27,68 @@ body{padding-top:50px;background:#f7f7f7;overflow-x:hidden;font-family:"robotore
 .navbar-right{background:#3889ca;color:#ffffff;}
 .dropdown-toggle img{padding-bottom:0px;padding-top:0px;}
 .icon{position:relative;width:37px;height:33px;float:left;background:url(../img/icon.gif)no-repeat;z-index:1;}
-.history .icon{background-position:0px 0px;cursor:pointer;}
-.surgeries .icon{background-position:0px -50px;cursor:pointer;}
-.medications .icon{background-position:0px -108px;cursor:pointer;}
-.allergies .icon{background-position:0px -165px;cursor:pointer;}
-.immunisations .icon{background-position:0px -222px;cursor:pointer;}
-.family .icon{background-position:0px -279px;cursor:pointer;}
-.account a:hover,.account a:focus{color: #616161 !important; text-decoration: none;}
-.account a{color: #616161 !important; text-decoration: none;}
-.icon1 {
-  position: relative;
-  width: 75px;
-  height: 37px;
-  float: none;
-  background: url(../img/icon1.gif) no-repeat;
-  z-index: 1;
-}
-.all .icon1 {
-  background-position: 25px 0px; 
-  cursor: pointer;
-}
-.office .icon1 {
-  background-position: -65px 0px; 
-  cursor: pointer;
-}
-.hospital .icon1 {
-  background-position: -166px 0px; 
-  cursor: pointer;
-}
-.labs .icon1 {
-  background-position: -266px 0px; 
-  cursor: pointer;
-}
-.imaging .icon1 {
-  background-position: -367px 0px; 
-  cursor: pointer;
-}
-.procedures .icon1 {
-  background-position: -470px 0px; 
-  cursor: pointer;
-}
-.pathology .icon1 {
-  background-position: -566px 0px; 
-  cursor: pointer;
-}
+.history .icon{background-position:0px 0px;}
+.surgeries .icon{background-position:0px -50px;}
+.medications .icon{background-position:0px -108px;}
+.allergies .icon{background-position:0px -165px;}
+.immunisations .icon{background-position:0px -222px;}
+.family .icon{background-position:0px -279px;}
+.account a:hover,.account a:focus{color: #616161; text-decoration: none;}
+.account a{color: #616161; text-decoration: none;}
+.headimg{margin-left: 10px; float: right; margin-top: 5px !important;}
+.searchform{float: left;}
+.icon1{position:relative;width:75px;height:37px;float:none;background:url(../img/icon1.gif) no-repeat;z-index:1;}
+.all .icon1{background-position:25px 0px;}
+.office .icon1{background-position:-65px 0px;}
+.hospital .icon1{background-position:-166px 0px;}
+.labs .icon1{background-position:-266px 0px;}
+.imaging .icon1{background-position:-367px 0px;}
+.procedures .icon1{background-position:-470px 0px;}
+.pathology .icon1{background-position:-566px 0px;}
 .navbar-right .dropdown{
   padding-right: 20px;
+}
+@media(max-width:939px) {
+.icon1{width:42px;}
+.all .icon1{background-position:5px 0px;}
+.office .icon1{background-position:-83px 0px;margin-left:17px;}
+.hospital .icon1{background-position:-183px 0px;margin-left:7px;}
+.labs .icon1{background-position:-283px 0px;}
+.imaging .icon1{background-position:-385px 0px;margin-left:5px;}
+.procedures .icon1{background-position:-488px 0px;margin-left:14px;}
+.pathology .icon1{background-position:-580px 0px;margin-left:10px;}
 }
 .navbar-nav li a {
     line-height:3em;
     padding:5px 10px;
 }
+.xs{
+  display: none;
+}
+@media only screen and (max-width: 457px){
+.xs{
+  display: block !important;
+}
+.xs1{
+  display: none;
+}
+}
+.ixs{
+  display: none;
+}
+@media only screen and (max-width: 530px){
+.ixs{
+  display: block !important;
+}
+.ixs1{
+  display: none !important; 
+}
+}
 /*
  * Sidebar
  */
 /* Sidebar navigation */
-.nav-sidebar {
-  background: #f2f2f2;
-  color: #616161;
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: -20px;
-  padding-top:  10px !important;
- font-size: 16px;
-}
+.nav-sidebar{background:#f2f2f2;color:#616161;margin-right:-21px;margin-bottom:20px;margin-left:-20px;padding-top:10px !important;font-size:16px;}
 .nav-sidebar .name{font-size:20px;}
 .nav-sidebar > li > a {padding-right:20px;padding-left: 20px;}
 .nav-sidebar > .active > a,.nav-sidebar > .active > a:hover,.nav-sidebar > .active > a:focus{color:#fff;background-color:#428bca;}
@@ -99,56 +97,37 @@ body{padding-top:50px;background:#f7f7f7;overflow-x:hidden;font-family:"robotore
 /*
  * Main content
  */
+ .navbar-static-top{overflow: hidden; overflow-x:auto;}
+ .nav-scrollable{height: 84px;}
+.navbar-static-top .navbar-nav{min-width: 578px;}
+
 .main{padding:20px;margin-top:0px;}
 @media (min-width: 768px){.main{padding-right:40px;padding-left:40px;}}
 .main .page-header{margin-top:0;}
 /*hiden sidebar*/
-.nav-sidebar {
-  left: 250px;
-  list-style: none;
-  height: 100%;
-  margin: 0;
-  margin-left: -250px;  
-  overflow-y: auto;
-  padding: 0;
-  position: fixed; 
-  top: 50px;
-  width: 0;
-  z-index: 1000;
-  -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition: all 0.5s ease;} 
-#change.toggled .nav-sidebar {
-    width: 250px;
-}
-.nav-sidebar .navbar-collapse {
-  padding: 0;
-  max-height: none;
-}
-.nav-sidebar ul {
-  float: none;
-  width: 100%;
-}
-.nav-sidebar ul:not {
-  display: block;
-}
-.nav-sidebar li {
-  float: none;
-  display: block;
-}
-.nav-sidebar li a {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.nav-sidebar .navbar-nav {
-  margin: 0;
-}
+.nav-sidebar{left:190px;list-style:none;height:100%;margin:0;margin-left:-190px;overflow-y:auto;padding:0;position:fixed;top:50px;width:0;z-index:1000;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition: all 0.5s ease;} 
+#change.toggled .nav-sidebar{width:190px;}
+.nav-sidebar .navbar-collapse{padding:0;max-height:none;}
+.nav-sidebar ul{float:none;width:100%;}
+.nav-sidebar ul:not {display:block;}
+.nav-sidebar li{float:none;display:block;}
+.nav-sidebar li a{padding-top:12px;padding-bottom:12px;}
+.nav-sidebar .navbar-nav{margin:0;}
 #change{padding-left:0;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
-#change.toggled {padding-left:250px;}
+#change.toggled {padding-left:190px;}
 #page {width:100%;position:relative;padding:15px;}
 #change.toggled #page {position:relative;}
-@media(min-width:939px) {
+@media (min-width:812px) {
   #change{padding-left:250px;}
   #change.toggled{padding-left:0;}
   #page{padding:20px;position:relative;}
   #change.toggled #page{position:relative;margin-right:0;}
-  .nav-sidebar{width:250px;}
+  .nav-sidebar{width:250px;left:250px;margin-left:-250px;}
   #change.toggled .nav-sidebar{width:0;}}
+@media(min-width:752px) and (max-width: 811px) {
+  #change{padding-left:190px;}
+  #change.toggled{padding-left:0;}
+  #page{padding:20px;position:relative;}
+  #change.toggled #page{position:relative;margin-right:0;}
+  .nav-sidebar{width:190px;}
+  #change.toggled .nav-sidebar{width:0;}}  
