@@ -165,20 +165,67 @@ left: 50%; display: none;}
 .viewtable{
 	border: solid;
 	border-width: 1px;
+	border-color: #c4c4c4;
 	height: 278px;
 	background-color: #ffffff;
 	padding-top: 10px;
 	margin-bottom: 15px;
 }
+.viewtable1{
+	border: solid;
+	border-width: 1px;
+	border-color: #c4c4c4;
+	
+	background-color: #ffffff;
+	padding-top: 10px;
+	
+}
+.fullscreen{
+	width: 100% !important;
+}
+.viewtable1 #add-medication{
+	text-align: center;
+}
+.viewtable1 .add-medication{
+	padding: 10px 20px;
+}
+
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f3f3f3;
+}
+#add-medication{
+	cursor: pointer;
 }
 .add-medication{
 	display: none;
 	width: 50%;
 }
+.fullscreen .form-group{
+	float: left;
+}
 .add-medication .btn{
 	float: right;
+}
+.type{
+	width: 20%;
+}
+.location{
+	width: 80%;
+}
+.procedure{
+	width: 100%;
+}
+.provider{
+	width: 40%;
+}
+.speciality{
+	width: 40%;
+}
+.date{
+	width: 20%;
+}
+.descr{
+	width: 100%;
 }
 .blue{
 	background-color: #3388cc;
@@ -198,4 +245,7 @@ left: 50%; display: none;}
 .add-medication a:hover{
 	background: transparent;
 	color: #3889ca;
+}
+.onset{
+	width: 50%;
 }
