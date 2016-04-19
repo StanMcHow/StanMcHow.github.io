@@ -111,9 +111,8 @@ body{
     border-radius: 5px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     background-color: #ff00ff;}
 
-.main{padding:20px;margin-top:0px;}
+.main{padding:20px;margin-top:-20px;}
 @media (min-width: 768px){.main{padding-right:40px;padding-left:40px;}}
-.main .page-header{margin-top:0;}
 /*hiden sidebar*/
 .nav-sidebar{left:200px;list-style:none;height:100%;margin:0;margin-left:-200px;overflow-y:auto;padding:0;position:fixed;top:50px;width:0;z-index:1000;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition: all 0.5s ease;} 
 #change.toggled .nav-sidebar{width:200px;}
@@ -168,7 +167,35 @@ left: 50%; display: none;}
 	border-width: 1px;
 	height: 278px;
 	background-color: #ffffff;
+	padding-top: 10px;
+	margin-bottom: 15px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f3f3f3;
+}
+.add-medication{
+	display: none;
+	width: 50%;
+}
+.add-medication .btn{
+	float: right;
+}
+.blue{
+	background-color: #3388cc;
+	border: none;
+	color: #ffffff;
+	padding-left: 10px;
+}
+.invis{
+	background: transparent;
+	border: none;
+	color: #3889ca;
+}
+.add-medication button:hover{
+	background-color: #3388cc;
+	color: #ffffff;
+}
+.add-medication a:hover{
+	background: transparent;
+	color: #3889ca;
 }
