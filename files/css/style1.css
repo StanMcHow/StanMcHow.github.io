@@ -160,7 +160,15 @@ body{
 left: 50%; display: none;}
 .xs{display: none;}@media (max-width: 260px){.xs{display: block !important;}.xs1{display: none;}}
 .ixs{display: none;}@media (max-width: 656px){.ixs{display: block !important;}.ixs1{display: none !important; }}
-/*@media (max-width: 152px){.ixs{margin-right: -5px;}}*/
+
 .uxs {display: none;}
  @media (max-width: 510px){.uxs{display: block !important;}.uxs1{display: none !important;}}
-/*@media (max-width: 329px;){.navbar .input-group{margin-left:-15px !important;margin-right:-15px !important;}.navbar-brand .xs{-left:-15px !important;}}*/
+.viewtable{
+	border: solid;
+	border-width: 1px;
+	height: 278px;
+	background-color: #ffffff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
