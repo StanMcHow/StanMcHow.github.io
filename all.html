@@ -98,16 +98,44 @@
    </nav>
    <a id="search-icon" class="btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
    <div id="page" class="main">
-    <h3>Medication</h3>
-    <div class="viewtable">
+    <div class="viewtable1">
+    <a id="add-medication">+ Add Encounter</a>
+    <div class="add-medication fullscreen">
+    <form  role="Login">
+            <div class="form-group type">
+              <select class="form-control" name="sel0">
+                        <option value"">Type</option>
+                      <option value"1">Option 1</option>
+                        <option value"2">Option 2</option>
+                        <option value"3">Option 3</option>
+                </select>
+            </div>
+            <div class="form-group location">
+              <input type="text" class="form-control" placeholder="Location">
+            </div>
+            <div class="form-group procedure">
+              <input type="text" class="form-control" placeholder="Procedure">
+            </div>
+            <div class="form-group provider">
+              <input type="text" class="form-control" placeholder="Provider">
+            </div>
+            <div class="form-group speciality">
+              <input type="text" class="form-control" placeholder="Speciality">
+            </div>
+            <div class="form-group date">
+              <input type="text" class="form-control" placeholder="Date">
+            </div>
+            <div class="form-group descr">
+              <input type="text" class="form-control">
+            </div>
+            <a href=""> <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> Attach document</a>
+           
+            <button type="submit" class="btn btn-default blue">Save</button>
+            <a type="submit" class="btn btn-default invis">Cancel</a>
+            
+          </form>
+          </div>
     <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Active Medications</th>
-        <th>Instructions</th>
-        <th>Taking?</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
         <td>Metoprolol Tartrate 50 mg tablet</td>
@@ -123,20 +151,7 @@
     </tbody>
   </table>
     </div>
-    <a id="add-medication">+ Add a medication</a>
-    <div class="add-medication">
-    <form  role="Login">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Instructions">
-            </div>
-            <button type="submit" class="btn btn-default blue">Save</button>
-            <a type="submit" class="btn btn-default invis">Cancel</a>
-            
-          </form>
-          </div>
+    
 <p>  </p>
    </div>
   </div>

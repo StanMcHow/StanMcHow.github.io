@@ -103,34 +103,52 @@
     <table class="table table-striped">
     <thead>
       <tr>
-        <th>Active Medications</th>
-        <th>Instructions</th>
-        <th>Taking?</th>
+        <th>Diagnosis</th>
+        <th>Onset</th>
+        <th>Status</th>
+        <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Metoprolol Tartrate 50 mg tablet</td>
-        <td>Take 2 tablets by mouth twice a day</td>
-        <td><input type="checkbox" value=""></td>
+        <td>Hypertension</td>
+        <td>1993</td>
+        <td>Intermittent</td>
+        <td><a >remove</a></td>
+        <td><a class="edit">edit</a></td>
       </tr>
       <tr>
-        <td>Lisinopril 10 mg tablet</td>
-        <td>Take 1 tablet by mouth daily</td>
-        <td><input type="checkbox" value=""></td>
+        <td>Type 2 Diabetes Mellitus</td>
+        <td>2001</td>
+        <td>Current</td>
+        <td><a >remove</a></td>
+        <td><a class="edit">edit</a></td>
       </tr>
-
+      <tr>
+        <td>Uterine fibroids</td>
+        <td>1991</td>
+        <td>Past</td>
+        <td><a >remove</a></td>
+        <td><a class="edit">edit</a></td>
+      </tr>
     </tbody>
   </table>
     </div>
-    <a id="add-medication">+ Add a medication</a>
+    <a id="add-medication">+ Add a condition</a>
     <div class="add-medication">
     <form  role="Login">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" placeholder="Diagnosis">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Instructions">
+              <input type="text" class="form-control" placeholder="ICD-10 Code (Optional)">
+            </div>
+            <div class="form-group onset">
+              <input type="text" class="form-control" placeholder="Onset (Optional)">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Status">
             </div>
             <button type="submit" class="btn btn-default blue">Save</button>
             <a type="submit" class="btn btn-default invis">Cancel</a>
