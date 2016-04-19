@@ -136,7 +136,7 @@ body{
   #change.toggled .nav-sidebar{width:0;}}  
 #search-button{display: none;}
 @media (max-width: 329px;){.navbar .input-group{margin-left:-15px !important;margin-right:-15px !important;}.navbar-brand{-left:-15px !important;}}
-@media (max-width: 360px){
+@media (max-width: 440px){
 #search-form{display:none;width:100%;}
 .searchform{
 	position: absolute;
@@ -149,16 +149,16 @@ body{
 #search-button{display: block;}
 }
 @media (max-width: 160px){
-.navbar-brand{
-	margin-left: -10px;
-}
-.navbar-right .dropdown-toggle{
-	padding: 5px 5px;
-}
+	.navbar-right .dropdown-toggle{
+		padding: 5px 5px;
+	}
+	.navbar-brand{
+		margin-left: -10px;
+	}
 }
 #search-icon{position: absolute;top: 40px;z-index: 1050;background-color: #569ad1;
 left: 50%; display: none;}
-.xs{display: none;}@media (max-width: 443px){.xs{display: block !important;}.xs1{display: none;}}
+.xs{display: none;}@media (max-width: 260px){.xs{display: block !important;}.xs1{display: none;}}
 .ixs{display: none;}@media (max-width: 656px){.ixs{display: block !important;}.ixs1{display: none !important; }}
 /*@media (max-width: 152px){.ixs{margin-right: -5px;}}*/
 .uxs {display: none;}
