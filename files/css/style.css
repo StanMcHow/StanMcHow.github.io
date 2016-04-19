@@ -1,200 +1,52 @@
 /*font-setting, work*/
-@font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/Roboto-Regular-webfont.eot');
-    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face{font-family:'robotoregular';src:url('../fonts/Roboto-Regular-webfont.eot');src:url('../fonts/Roboto-Regular-webfont.eot?#iefix')format('embedded-opentype'),url('../fonts/Roboto-Regular-webfont.woff')format('woff'),url('../fonts/Roboto-Regular-webfont.ttf')format('truetype'),url('../fonts/Roboto-Regular-webfont.svg#robotoregular')format('svg');font-weight:normal;font-style:normal;}
 /*background - stable*/
-html {
-  background-image: url(../img/landing.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-   -webkit-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -ms-background-size: cover;
-   background-size: cover;
-   height:100%;
-   min-height: 100%;
-}
+html{background-image:url(../img/landing.png);background-position:top;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;min-height:100%;}
 /*body-setting, work stable*/
-body {
-  padding-top: 0px;
-  overflow-x: hidden;
-  font-family: "robotoregular";
-  background: transparent; color: #ffffff;
-  min-height: 100%;
-}
+body{padding-top:0px;overflow-x:hidden;font-family:"robotoregular";background:transparent;color:#ffffff;min-height:100%;}
 /*navbar-setting, work visually stable*/
-.navbar { 
-  background: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  border: 0;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, .25)
-}
-.navbar .navbar-nav > li > a {
-  color: #ffffff; 
-}
-.navbar .navbar-brand {
-  position: relative;
-  top: -10px;
-  color: #ffffff;
-  font-size: 20px;
-}
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
-  background: rgba(0, 0, 0, 0.2);
-}
-.navbar-fixed-top {
-  border: 0;
-}
-.navbar-right {
-  background: transparent;
-  color: #ffffff;
-  padding-right: 20px;
-}
-.navbar-right button {
-  background: transparent;
-  border-color: #ffffff;
-  border-width: 2px;
-  color: #ffffff;
-}
+.navbar{background:rgba(0,0,0,0.4);color:#ffffff;border:0;box-shadow:2px 0 5px rgba(0,0,0,.25)}
+.navbar .navbar-nav>li>a{color:#ffffff;}
+.navbar .navbar-brand{position:relative;top:-10px;color:#ffffff;font-size:20px;}
+.navbar .navbar-nav>li>a:hover,.navbar .navbar-nav>li>a:focus{background:rgba(0,0,0,0.2);}
+.navbar-fixed-top{border:0;}
+.navbar-right{background:transparent;color:#ffffff;padding-right:20px;}
+.navbar-right button{background:transparent;border-color:#ffffff;border-width:2px;color:#ffffff;}
 /*navbar collapsing*/
-.small{
-  font-size: 20px;
-  display: none !important;
-}
-.hide{
-  display: block !important;
-}
-@media only screen and (max-width: 480px){
-  .small{
-  display: block !important;
-}
-.hide{
-  display: none !important;
-}
-}
+.small{font-size:20px;display:none !important;}
+.hide{display:block !important;}
+@media(max-width:480px){.small{display:block !important;}
+.hide{display:none !important;}}
 /*brand setting for extra small display*/
-.xs{
-  display: none;
-}
-@media only screen and (max-width: 362px){
-.xs{
-  display: block !important;
-}
-.xs1{
-  display: none;
-}
-}
+.xs{display:none;}
+@media(max-width:362px){.xs{display:block !important;}.xs1{display:none;}}
 /*blue button*/
-.blue {
-  background: #3889ca;
-  color: #ffffff;
-}
+.blue{background:#3889ca;color:#ffffff;}
 /*modal setting*/
-.modal img{
-  float: left;
-}
-.modal input {
-  font-size: 18px;
-  height: 50px;
-}
-.modal p {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 16px;
-}
-.modal .btn {
-  display: block;
-  font-size: 18px;
-  height: 50px;
-}
-.modal .aright {
-  padding-bottom: 15px;
-}
-.modal button {
-  width: 100%;
-}
-.wari {
-  padding-bottom: 15px;
-}
-.war {
-  padding-bottom: 10px;
-}
-.cent {
-  padding-top: 12px;
-}
-.form-control::-webkit-input-placeholder{color: #999;font-size: 18px;}
-.divider {
-  height: 1px;
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
-
-
-/*centrifying modal PROCESSING*/
-
-
-
-.modal {
-  color: #000000;
- }
-.modal-dialog{
-  position: fixed;
-  width: 320px !important;
-  left: 50%;
-  top: 50% !important;
- }
-.modal-content{
-  left: -50%;
-  }
-.sign{
-  top: -180px;
-}
-.signin{
-  top: -222px;
-}
-.login{
-  top: -200px;
-}
-.password{
-  top: -152px;
-}
-.done{
-  top: -112px;
-}
-.fb{
-  background-color: #507cc0;
-  color: #ffffff;
-}
-
+.modal img{float:left;}
+.modal input{font-size:18px;height:50px;}
+.modal p{padding-top:10px;text-align:center;font-size:16px;}
+.modal .btn{display:block;font-size:18px;height:50px;}
+.modal .aright{padding-bottom:15px;}
+.modal button{width:100%;}
+.wari{padding-bottom:15px;}
+.war{padding-bottom:10px;}
+.cent{padding-top:12px;}
+.form-control::-webkit-input-placeholder{color:#999;font-size:18px;}
+.divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5;}
+/*centrifying modal*/
+.modal{color:#000000;}
+.modal-dialog{position:fixed;width:320px !important;left:50%;top:50% !important;}
+.modal-content{left:-50%;}
+.sign{top:-180px;}
+.signin{top:-222px;}
+.login{top:-200px;}
+.password{top:-152px;}
+.done{top:-112px;}
+.fb{background-color:#507cc0;color:#ffffff;}
 /*text in center quitely normal*/
-.base {
-  background: transparent;
-  top: 30%;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  left:50%;
-  margin-left: -50%;
-}
+.base{background:transparent;top:30%;position:absolute;width:100%;text-align:center;left:50%;margin-left:-50%;}
 /*small font for small display*/
-@media only screen and (max-width: 362px){
-.header{
-  font-size: 24px;
-}
-.place{
-  font-size: 16px;
-}
-}
+@media only screen and (max-width: 362px){.header{font-size:24px;}.place{font-size:16px;}}
 
 
