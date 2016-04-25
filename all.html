@@ -103,18 +103,29 @@
     <div class="add-medication fullscreen">
     <form  role="Login">
             <div class="form-group type">
-              <select class="form-control" name="sel0">
+              <select class="form-control" name="sel0" onchange="admSelectCheck(this);">
                         <option value"">Type</option>
                       <option value"1">Option 1</option>
-                        <option value"2">Option 2</option>
+                        <option value"2" id="labtype">Labs</option>
                         <option value"3">Option 3</option>
                 </select>
             </div>
             <div class="form-group location">
               <input type="text" class="form-control" placeholder="Location">
             </div>
-            <div class="form-group procedure">
+            <div id="nonlabs" class="form-group procedure">
               <input type="text" class="form-control" placeholder="Procedure">
+            </div>
+            <div id="labst" class="form-group testname">
+              <input type="text" class="form-control" placeholder="Test name">
+            </div>
+            <div id="labsource" class="form-group labsource">
+              <select class="form-control" name="sel1">
+                        <option value"">Source</option>
+                      <option value"1">Option 1</option>
+                        <option value"2">Option 2</option>
+                        <option value"3">Option 3</option>
+                </select>
             </div>
             <div class="form-group provider">
               <input type="text" class="form-control" placeholder="Provider">
@@ -138,11 +149,57 @@
     <table class="table table-striped">
     <tbody>
       <tr>
+        <td class="icontable"><div class="doctor"><div class="icon2"></div></div></td>
         <td>Metoprolol Tartrate 50 mg tablet</td>
         <td>Take 2 tablets by mouth twice a day</td>
         <td><input type="checkbox" value=""></td>
       </tr>
       <tr>
+        <td class="icontable"><div class="ambulance"><div class="icon2"></div></div></td>
+        <td>Lisinopril 10 mg tablet</td>
+        <td>Take 1 tablet by mouth daily</td>
+        <td><input type="checkbox" value=""></td>
+      </tr>
+      <tr>
+        <td class="icontable"><div class="labsi"><div class="icon2"></div></div></td>
+        <td>Lisinopril 10 mg tablet</td>
+        <td>Take 1 tablet by mouth daily</td>
+        <td><input type="checkbox" value=""></td>
+      </tr>
+      <tr>
+        <td class="icontable"><div class="xray"><div class="icon2"></div></div></td>
+        <td>Lisinopril 10 mg tablet</td>
+        <td>Take 1 tablet by mouth daily</td>
+        <td><input type="checkbox" value=""></td>
+      </tr>
+      <tr>
+        <td class="icontable"><div class="chart"><div class="icon2"></div></div></td>
+        <td>Lisinopril 10 mg tablet</td>
+        <td><div class="sodium"></div><div class="progress">
+  <div class="progress-bar progress-bar-danger" style="width: 33%">
+    <span class="sr-only">33% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-success" style="width: 34%">
+    <span class="sr-only">34% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 33%">
+    <span class="sr-only">33% Complete (danger)</span>
+  </div>
+</div></td>
+        <td><div class="progress">
+  <div class="progress-bar progress-bar-danger" style="width: 33%">
+    <span class="sr-only">33% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-success" style="width: 34%">
+    <span class="sr-only">34% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 33%">
+    <span class="sr-only">33% Complete (danger)</span>
+  </div>
+</div></td>
+      </tr>
+      <tr>
+        <td class="icontable"><div class="surger"><div class="icon2"></div></div></td>
         <td>Lisinopril 10 mg tablet</td>
         <td>Take 1 tablet by mouth daily</td>
         <td><input type="checkbox" value=""></td>
