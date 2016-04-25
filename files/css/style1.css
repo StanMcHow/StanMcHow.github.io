@@ -227,6 +227,18 @@ left: 50%; display: none;}
 .descr{
 	width: 100%;
 }
+.testname{
+	width: 80%;
+	display: none;
+}
+.progress{
+	height: 6px;
+	overflow-y: visible;
+}
+.labsource{
+	width: 20%;
+	display: none;
+}
 .blue{
 	background-color: #3388cc;
 	border: none;
@@ -248,4 +260,27 @@ left: 50%; display: none;}
 }
 .onset{
 	width: 50%;
+}
+.icon2{
+	padding:0px;
+	position:relative;width:29px;height:30px;float:left;background:url(../img/icon2.gif)no-repeat;z-index:1;}
+.doctor .icon2{background-position:0px 0px;}
+.ambulance .icon2{background-position:0px -46px;}
+.labsi .icon2{background-position:0px -95px;}
+.xray .icon2{background-position:0px -140px;}
+.chart .icon2{background-position:0px -189px;}
+.surger .icon2{background-position:0px -235px;}
+.icontable{
+	padding-bottom: 0px !important;
+	padding-top: 4px !important;
+}
+.sodium{
+	width: 20px;
+	height: 20px;
+	border: solid 5px #00ff00;
+	border-radius: 10px;
+	position: relative;
+	left: 50%;
+	top: 13px;
+	background-color: #ffffff;
 }
