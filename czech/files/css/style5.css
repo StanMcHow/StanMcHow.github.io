@@ -12,7 +12,8 @@ body{
 .nav-sidebar ul:not {display:block;}
 .nav-sidebar li{float:none;display:block;}
 .nav-sidebar li ul{display:none;padding-left: 0px;}
-.nav-sidebar li:active, .nav-sidebar li:hover ul{display: block;}
+.nav-sidebar li.active ul{display: block;}
+.nav-sidebar li.active{background-color:#ffffff;}
 .nav-sidebar .navbar-nav{margin:0;}
 .main{padding:20px;}
 /*hiden sidebar*/
