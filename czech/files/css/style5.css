@@ -13,7 +13,7 @@ body{
 .nav-sidebar li{float:none;display:block;}
 .nav-sidebar li ul{display:none;padding-left: 0px;}
 .nav-sidebar li.active ul{display: block;}
-.nav-sidebar li.active{background-color:#ffffff;}
+.nav-sidebar li.active{background-color:#ffffff !important;}
 .nav-sidebar .navbar-nav{margin:0;}
 .main{padding:20px;}
 /*hiden sidebar*/
