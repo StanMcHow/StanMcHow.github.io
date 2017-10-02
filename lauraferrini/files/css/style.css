@@ -10,3 +10,4 @@
   src: url('../fonts/Constantia.ttf') format('truetype');
 }
 body{font-family: 'Constantia';}
+.carousel img{min-width: 100%;}
