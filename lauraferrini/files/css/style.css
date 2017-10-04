@@ -10,4 +10,34 @@
   src: url('../fonts/Constantia.ttf') format('truetype');
 }
 body{font-family: 'Constantia';}
-.carousel img{min-width: 100%;}
+.navbar-brand {font-size: 160%;}
+
+.carousel img{min-width: 100%; overflow-y: hidden !important;}
+.carousel {max-height: 100%;}
+.carousel-control .glyphicon{top: 50vh;}
+
+
+.navbar{
+	z-index: 100 !important;
+	background:rgba(0,0,0,0.1);
+	color:#ffffff;
+	border:0;
+	box-shadow:2px 0 5px rgba(0,0,0,.25)}
+
+
+.carousel {
+	top: -70px;
+  height: 100vh !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  transform: translate(-50%,0);
+}
