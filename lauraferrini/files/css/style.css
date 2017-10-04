@@ -12,6 +12,7 @@
   src: url('../fonts/Constantia.ttf') format('truetype');
 }
 body{font-family: 'Constantia';}
+.brand{font-family: 'Constantia';}
 .navbar-brand {font-size: 160%;}
 
 .carousel img{min-width: 100%; overflow-y: hidden !important;}
@@ -46,3 +47,8 @@ body{font-family: 'Constantia';}
 }
 /*.conteiner {position: relative;
 	top: 700px !important;}*/
+
+.carousel-caption {
+    top: 20vw;
+    bottom: auto;
+}
