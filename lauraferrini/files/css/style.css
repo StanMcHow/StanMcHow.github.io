@@ -3,6 +3,8 @@
   top:-10px;
   left:10px;}
 
+.navbar-brand img{min-width: 50px;
+	width: 10vw;}
 
   @font-face {
   font-family: 'Constantia';
@@ -17,9 +19,10 @@ body{font-family: 'Constantia';}
 .carousel-control .glyphicon{top: 50vh;}
 
 
-.navbar{
+.navbar{height: 8vw;
+	min-height: 50px;
 	z-index: 100 !important;
-	background:rgba(0,0,0,0.1);
+	background:rgba(0,0,0,0.3);
 	color:#ffffff;
 	border:0;
 	box-shadow:2px 0 5px rgba(0,0,0,.25)}
@@ -27,6 +30,7 @@ body{font-family: 'Constantia';}
 
 .carousel {
 	top: -70px;
+	bottom: 0px;
   height: 100vh !important;
   overflow: hidden;
 }
@@ -41,3 +45,5 @@ body{font-family: 'Constantia';}
   position: absolute;
   transform: translate(-50%,0);
 }
+/*.conteiner {position: relative;
+	top: 700px !important;}*/
