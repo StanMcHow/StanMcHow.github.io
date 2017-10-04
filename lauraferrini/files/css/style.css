@@ -29,8 +29,7 @@ body{font-family: 'Constantia';}
 
 
 .carousel {
-	top: -70px;
-	bottom: 0px;
+	/*top: -70px;*/
   height: 100vh !important;
   overflow: hidden;
 }
