@@ -53,8 +53,10 @@ font-size: 6vw;}
     bottom: auto;
 }
 
-
-
+.social{
+	width: 2vw;
+	/*width: 2vw !important;*/
+}
 .navbar .nav li a {color: #ffffff;}
 @media(min-width:768px){
 .navbar .navbar-nav {
