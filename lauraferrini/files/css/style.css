@@ -48,12 +48,15 @@ font-size: 6vw;}
 }
 /*.conteiner {position: relative;
 	top: 700px !important;}*/
-
 .carousel-caption {
-    top: 30vw;
+    top: 60vh;
     bottom: auto;
 }
 
+
+
+.navbar .nav li a {color: #ffffff;}
+@media(min-width:768px){
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -61,8 +64,19 @@ font-size: 6vw;}
 .navbar .navbar-collapse {
     text-align: center;
 }
-
 .navbar-nav > li {
     display: inline-block;
     float:none;
+    font-size: 16px;
+    text-transform: uppercase;
+}}
+
+.navbar-nav > li {
+    font-size: 16px;
+     text-transform: uppercase;
 }
+.navbar .navbar-collapse {
+    text-align: center;}
+
+.in{background:rgba(0,0,0,0.3);
+border:transparent;}
