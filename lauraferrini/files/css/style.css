@@ -62,3 +62,7 @@ font-size: 6vw;}
     text-align: center;
 }
 
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
