@@ -70,12 +70,11 @@ font-size: 6vw;}
 .navbar-nav > li {
     display: inline-block;
     float:none;
-    font-size: 2vw !important;
     text-transform: uppercase;
 }}
 
 .navbar-nav > li {
-    font-size: 16px;
+    font-size: 20px;
      text-transform: uppercase;
 }
 .navbar .navbar-collapse {
