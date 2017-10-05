@@ -54,9 +54,7 @@ font-size: 6vw;}
 }
 
 .social{
-	width: 2vw;
-	min-width: 30px;
-	/*width: 2vw !important;*/
+	width: 30px;
 }
 .navbar .nav li a {color: #ffffff;}
 @media(min-width:768px){
