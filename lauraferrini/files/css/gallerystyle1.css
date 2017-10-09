@@ -109,4 +109,19 @@ border:transparent;
   border:transparent;
 
 }
-
+.carousel.fade{
+	opacity: 1;
+}
+.carousel.fade .item{
+	display: block;
+	position: absolute;	
+	left: 0;
+	top: 0;
+	width: 100%;
+	opacity: 0;
+	transition: opacity .5s;
+}
+.carousel.fade .item.active{
+	position: relative;
+	opacity: 1;
+}
