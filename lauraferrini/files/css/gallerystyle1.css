@@ -128,7 +128,7 @@ display: block !important;
 .carousel-indicators {
   height: 98vh;
   overflow: scroll;
-  right: -15px !important;
+  left: 700px !important;
   width: 80px !important;
 }
 
