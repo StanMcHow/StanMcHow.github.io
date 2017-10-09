@@ -1,0 +1,112 @@
+.navbar .navbar-brand{
+  position:relative;
+  top:-10px;
+  left:2vw;
+}
+.navbar-brand img{
+  min-width: 50px;
+	width: 10vw;
+}
+.navbar{
+  height: 8vw;
+  min-height: 50px;
+  z-index: 100 !important;
+  color:#ffffff;
+  border:0;
+  box-shadow:2px 0 5px rgba(0,0,0,.25)
+}
+  @font-face {
+  font-family: 'Constantia';
+  src: url('../fonts/Constantia.ttf') format('truetype');
+}
+body{
+  font-family: 'Constantia';
+}
+.brand{
+  font-family: 'Constantia';
+  font-size: 6vw;
+}
+.navbar-brand {
+  font-size: 160%;
+}
+.social{
+  width: 30px;
+}
+.navbar .nav li a {
+  color: #ffffff;
+}
+@media(min-width:768px){
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    text-transform: uppercase;
+}}
+
+.navbar-nav > li {
+    font-size: 20px;
+     text-transform: uppercase;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+.in{
+border:transparent;
+}
+@media (min-width: 768px) { 
+  .navbar-nav > li > a{
+    top: 2vw; 
+  }
+}
+/*end of navbar begin of carousel*/
+.carousel img{
+  overflow-y: hidden !important;
+}
+.carousel {
+  max-height: 100%;
+}
+.carousel {
+  height: 100vh !important;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,0);
+}
+.carousel-indicators li {
+  text-indent: 0px !important;
+  width: 70px;
+  height: 70px;
+overflow: hidden;
+border:transparent;
+}
+.carousel-indicators > li > img {
+  max-width: 70px;
+  max-height: 70px;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+  z-index: 1000;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+.carousel-indicators li.active {
+  text-indent: 0px !important;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border:transparent;
+
+}
+
