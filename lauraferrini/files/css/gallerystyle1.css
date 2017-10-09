@@ -88,12 +88,11 @@ border:transparent;
   height: 70px;
 overflow: hidden;
 border:transparent;
+display: block !important;
 }
 .carousel-indicators > li > img {
   max-width: 70px;
   max-height: 70px;
-  min-width: 50px;
-  min-height: 50px;
   position: relative;
   z-index: 1000;
   top: 50%;
@@ -110,18 +109,19 @@ border:transparent;
 
 }
 .carousel.fade{
-	opacity: 1;
+  opacity: 1;
 }
 .carousel.fade .item{
-	display: block;
-	position: absolute;	
-	left: 0;
-	top: 0;
-	width: 100%;
-	opacity: 0;
-	transition: opacity .5s;
+  display: block;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s;
 }
 .carousel.fade .item.active{
-	position: relative;
-	opacity: 1;
+  position: relative;
+  opacity: 1;
 }
+
