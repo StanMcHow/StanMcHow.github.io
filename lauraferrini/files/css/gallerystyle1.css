@@ -155,8 +155,9 @@ display: block !important;
 }
 
 .gallerytrigger img{
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px;
 }
 .close {
   position: absolute;
