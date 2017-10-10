@@ -153,11 +153,14 @@ display: block !important;
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(10,10,10,0.9); 
 }
-
+.gallerytrigger{
+  text-align: justify;
+}
 .gallerytrigger img{
   max-width: 400px;
   max-height: 400px;
-  margin: 10px;
+  margin: 5px;
+  display: inline-block;
 }
 .close {
   position: absolute;
@@ -169,4 +172,10 @@ display: block !important;
   border: solid;
   border-color: #ffffff;
   border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .gallerytrigger{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
