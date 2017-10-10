@@ -10,6 +10,7 @@
 .navbar-nav .active a{
   border: solid;
   border-color: #ffffff;
+  border-width: 2px;
 }
 .navbar{
   height: 8vw;
