@@ -36,7 +36,7 @@ body{
   font-size: 160%;
 }
 .social{
-  width: 30px;
+  width: 20px;
 }
 .navbar .nav li a {
   color: #ffffff;
@@ -77,16 +77,8 @@ border:transparent;
 .carousel {
   max-height: 100%;
 }
-.carousel {
-  height: 100vh !important;
-}
 .carousel-inner {
   overflow: visible;
-}
-.carousel-inner img {
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,0);
 }
 .carousel-indicators li {
   text-indent: 0px !important;
@@ -132,26 +124,9 @@ display: block !important;
 }
 
 .carousel-indicators {
-  height: 98vh;
-  overflow: scroll;
-  left: 700px !important;
-  width: 85px !important;
-}
-
-.carousel-indicators::-webkit-scrollbar {
-    width: 12px;
-}
- 
-.carousel-indicators::-webkit-scrollbar-track {
-  background: rgba(3,3,3,0.5);
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7); 
-    border-radius: 10px;
-}
- 
-.carousel-indicators::-webkit-scrollbar-thumb {
-  background: rgba(151,151,151,0.5);
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(10,10,10,0.9); 
+  left: 115% !important;
+  width: 85px;
+  padding-left: 45px;
 }
 .gallerytrigger{
   text-align: justify;
@@ -178,4 +153,10 @@ display: block !important;
     margin-left: 50px;
     margin-right: 50px;
   }
+  body .modal-gallery{
+    width: 98vw;
+  }
+}
+body .dressview {
+  left: 15px;
 }
