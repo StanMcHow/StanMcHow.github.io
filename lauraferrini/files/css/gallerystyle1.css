@@ -3,12 +3,13 @@
   top:-10px;
   left:2vw;
 }
-.navbar .active {
-border: solid;
-border-color: #ffffff;}
 .navbar-brand img{
   min-width: 50px;
 	width: 10vw;
+}
+.navbar-nav .active a{
+  border: solid;
+  border-color: #ffffff;
 }
 .navbar{
   height: 8vw;
