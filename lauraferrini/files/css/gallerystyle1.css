@@ -71,9 +71,6 @@ border:transparent;
   }
 }
 /*end of navbar begin of carousel*/
-.carousel img{
-  overflow-y: hidden !important;
-}
 .carousel {
   max-height: 100%;
 }
@@ -124,9 +121,9 @@ display: block !important;
 }
 
 .carousel-indicators {
-  left: 115% !important;
-  width: 85px;
-  padding-left: 45px;
+  width: 100% !important;
+  bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 .gallerytrigger{
   text-align: justify;
@@ -159,4 +156,54 @@ display: block !important;
 }
 body .dressview {
   left: 15px;
+  float: left;
+  max-width: 500px;
+  display: inline-flex;
+}
+.indicatorforcarousel .carousel-indicators {
+  position: relative;
+}
+.describtion{
+  float: left;
+  width: 300px;
+}
+.indicatorforcarousel{
+  float: right;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.indicatorforcarousel label {
+width: 70px;
+height: 70px;
+}
+
+.container-gallery {
+
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
+}
+
+.dresslabel img {
+  max-width: 70px;
+  max-height: 70px;
+}
+.dressradio {
+  display: none;
+}
+.dressradio:checked + .dresslabel {
+  opacity: 0.5;
+}
+
+.centergallery {
+  position: relative;
+  width: 1000px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.dresslabel {
+  text-align: center;
 }
