@@ -158,7 +158,11 @@ body .dressview {
   left: 15px;
   float: left;
   max-width: 600px;
+  height: 100%;
   display: inline-flex;
+}
+body .dressview img {
+  max-height: 40vw;
 }
 .indicatorforcarousel .carousel-indicators {
   position: relative;
