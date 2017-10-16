@@ -162,7 +162,7 @@ body .dressview {
   display: inline-flex;
 }
 body .dressview img {
-  max-height: 40vw;
+  max-height: calc(100vh - 10vw);
 }
 .indicatorforcarousel .carousel-indicators {
   position: relative;
