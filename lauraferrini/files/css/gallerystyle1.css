@@ -157,7 +157,7 @@ display: block !important;
 body .dressview {
   left: 15px;
   float: left;
-  max-width: 500px;
+  max-width: 600px;
   display: inline-flex;
 }
 .indicatorforcarousel .carousel-indicators {
@@ -183,7 +183,7 @@ height: 70px;
   display: flex;                  /* establish flex container */
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap;              /* default value; can be omitted */
-  justify-content: space-between; /* switched from default (flex-start, see below) */
+  justify-content: space-around; /* switched from default (flex-start, see below) */
   background-color: lightyellow;
 }
 
@@ -206,4 +206,17 @@ height: 70px;
 }
 .dresslabel {
   text-align: center;
+ /* width: 80px;*/
+}
+body {
+  background: #fefe9a;
+}
+/*.dresslabel option{
+  height: 80px;
+}
+.dresslabel::-webkit-scrollbar{
+  display: none;
+}*/
+body.fullscreenbody {
+  max-height: 100vh !important;
 }
