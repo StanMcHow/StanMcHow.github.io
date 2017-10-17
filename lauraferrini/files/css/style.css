@@ -71,6 +71,13 @@ body{
 .social{
 	width: 20px;
 }
+.socialinst{
+  width: 25px;
+}
+.navbar-right a {
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
 .navbar .nav li a {color: #ffffff;}
 @media(min-width:768px){
 .navbar .navbar-nav {

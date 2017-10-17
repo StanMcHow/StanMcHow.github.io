@@ -38,6 +38,13 @@ body{
 .social{
   width: 20px;
 }
+.socialinst{
+  width: 25px;
+}
+.navbar-right a {
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
 .navbar .nav li a {
   color: #ffffff;
 }
@@ -221,6 +228,14 @@ body {
 .dresslabel::-webkit-scrollbar{
   display: none;
 }*/
-body.fullscreenbody {
-  max-height: 100vh !important;
+.gallery-control {
+  position: absolute;
+  bottom: 15px;
+  font-size: 20px;
+}
+.gallery-control.left {
+  left: 30px;
+}
+.gallery-control.right{
+  right: 30px;
 }
