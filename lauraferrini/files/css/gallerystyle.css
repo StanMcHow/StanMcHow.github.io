@@ -133,7 +133,7 @@ display: block !important;
   margin-bottom: 0px !important;
 }
 .gallerytrigger{
-  /*text-align: justify;*/
+  text-align: center;
 }
 .gallerytrigger img{
   max-width: 400px;
