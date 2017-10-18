@@ -136,8 +136,8 @@ display: block !important;
   text-align: center;
 }
 .gallerytrigger img{
-  max-width: 350px;
-  
+  max-width: 400px;
+  max-height: 400px;
   margin: 5px;
   display: inline-block;
 }
@@ -238,4 +238,18 @@ body {
 }
 .gallery-control.right{
   right: 30px;
+}
+.brandinfo img {
+  max-height: calc(100vh - 10vw);
+  max-width: 50%;
+  float: right;
+}
+.brandtext {
+  float: left;
+  max-width: 47%;
+  text-align: justify;
+}
+.branddescription{
+  max-width: 1100px;
+  margin: auto;
 }
