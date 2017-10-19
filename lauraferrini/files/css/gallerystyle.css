@@ -136,8 +136,7 @@ display: block !important;
   text-align: center;
 }
 .gallerytrigger img{
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 330px;
   margin: 5px;
   display: inline-block;
 }
