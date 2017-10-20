@@ -258,9 +258,12 @@ td {
   font-size: 18px;
 }
 .contactname {
-  width: 150px;
+  width: 100px;
 }
 table {
   margin: auto;
   position: relative;
+}
+.hiddentable {
+  color: #fafae1;
 }
