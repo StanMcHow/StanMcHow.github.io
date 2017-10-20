@@ -257,3 +257,10 @@ body {
 td {
   font-size: 16px;
 }
+.contactname {
+  width: 100px;
+}
+table {
+  left: 20px;
+  position: relative;
+}
