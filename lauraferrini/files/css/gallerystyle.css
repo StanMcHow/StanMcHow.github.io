@@ -254,3 +254,6 @@ body {
 .branddescription h1 {
   text-align: center;
 }
+td {
+  font-size: 16px;
+}
