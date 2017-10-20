@@ -261,6 +261,6 @@ td {
   width: 100px;
 }
 table {
-  left: 20px;
+  margin: auto;
   position: relative;
 }
