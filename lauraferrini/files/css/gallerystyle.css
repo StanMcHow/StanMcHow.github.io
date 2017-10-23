@@ -267,3 +267,9 @@ table {
 .hiddentable {
   color: #fafae1;
 }
+.tablelogo {
+  width: 50px;
+}
+.tablebrand {
+  width: 150px;
+}
