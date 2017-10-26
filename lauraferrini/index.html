@@ -98,7 +98,18 @@
       </a>
     </div>
     <!-- /.carousel -->
- 
+ <script>  
+	$(document).ready(function() {  
+  		$('#myCarousel').hammer().on('swipeleft', function(){
+  			$('#myCarousel').carousel('next'); 
+  		})
+  		$('#myCarousel').hammer().on('swiperight', function(){
+  			$('#myCarousel').carousel('prev'); 
+  		})
+
+	
+	});  
+	</script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
  <script src="files/js/jquery.min.js"></script>
  <!-- Include all compiled plugins (below), or include individual files as needed -->
