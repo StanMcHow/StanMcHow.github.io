@@ -1,8 +1,8 @@
 $(document).ready(function() {  
-    	$('#myCarousel, #2017Carousel').hammer().on('swipeleft', function(){
+    	$('#myCarousel').hammer().on('swipeleft', function(){
   			$(this).carousel('next'); 
   		})
-  		$('#myCarousel, #2017Carousel').hammer().on('swiperight', function(){
+  		$('#myCarousel').hammer().on('swiperight', function(){
   			$(this).carousel('prev'); 
   		})
  }); 
