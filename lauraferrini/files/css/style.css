@@ -23,11 +23,6 @@ body{
 .navbar-brand {
 	font-size: 160%;
 }
-
-.carousel img{
-	min-width: 100%;
-	overflow-y: hidden !important;
-}
 .carousel {
 	max-height: 100%;
 }
@@ -55,9 +50,8 @@ body{
 }
 .carousel-inner img {
   left: 50%;
-  max-width: none !important;
   min-height: 100vh;
-  min-width: 100%;
+  min-width: 100vw;
   position: absolute;
   transform: translate(-50%,0);
 }
@@ -107,4 +101,11 @@ border:transparent;}
   .navbar-nav > li > a{
     top: 2vw; 
   }
+}
+.btn-primary {
+  background: rgba(0,0,0,0.3);
+  border: transparent;
+}
+.btn-primary:hover {
+  background: rgba(0,0,0,0.5);
 }
