@@ -51,7 +51,7 @@ body{
 .carousel-inner img {
   left: 50%;
   height: 100vh;
-  /*min-width: 100vw;*/
+  min-width: 100vw;
   position: absolute;
   transform: translate(-50%,0);
 }
