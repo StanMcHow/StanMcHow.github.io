@@ -4,7 +4,7 @@
 }
 body{
 	font-family: 'Constantia';
-  background-color: #3f3f3f;
+  background-color: #8f8f05;
 }
 .brand{
 	font-family: 'Constantia';
@@ -101,4 +101,8 @@ border:transparent;}
 }
 .btn-primary:hover {
   background: rgba(0,0,0,0.5);
+}
+.carousel-caption img {
+  width: 27vw;
+  height: 3vw !important;
 }
