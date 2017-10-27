@@ -1,20 +1,10 @@
-.navbar .navbar-brand{
-  position:relative;
-  top:-10px;
-  left:2vw;
-}
-
-.navbar-brand img{
-	min-width: 50px;
-	width: 10vw;
-}
-
   @font-face {
   font-family: 'Constantia';
   src: url('../fonts/Constantia.ttf') format('truetype');
 }
 body{
 	font-family: 'Constantia';
+  background-color: #3f3f3f;
 }
 .brand{
 	font-family: 'Constantia';
@@ -23,47 +13,25 @@ body{
 .navbar-brand {
 	font-size: 160%;
 }
-.carousel {
-	max-height: 100%;
+.navbar .navbar-brand{
+  position:relative;
+  top:-10px;
+  left:2vw;
 }
-.carousel-control .glyphicon{
-	top: 50vh;
+.navbar-brand img{
+  min-width: 50px;
+  width: 10vw;
 }
-
-
 .navbar{height: 8vw;
 	min-height: 50px;
 	z-index: 100 !important;
 	background:rgba(0,0,0,0.3);
 	color:#ffffff;
 	border:0;
-	box-shadow:2px 0 5px rgba(0,0,0,.25)}
-
-
-.carousel {
-	/*top: -70px;*/
-  height: 100vh !important;
-  overflow: hidden;
+	box-shadow:2px 0 5px rgba(0,0,0,.25)
 }
-.carousel-inner {
-  overflow: visible;
-}
-.carousel-inner img {
-  left: 50%;
-  min-height: 100vh;
-  min-width: 100vw;
-  position: absolute;
-  transform: translate(-50%,0);
-}
-/*.conteiner {position: relative;
-	top: 700px !important;}*/
-.carousel-caption {
-    top: 60vh;
-    bottom: auto;
-}
-
 .social{
-	width: 20px;
+  width: 20px;
 }
 .socialinst{
   width: 25px;
@@ -86,7 +54,6 @@ body{
     float:none;
     text-transform: uppercase;
 }}
-
 .navbar-nav > li {
     font-size: 20px;
      text-transform: uppercase;
@@ -101,6 +68,32 @@ border:transparent;}
   .navbar-nav > li > a{
     top: 2vw; 
   }
+}/*
+.carousel {
+  max-height: 100%;
+}*/
+.carousel-control .glyphicon{
+  top: 50vh;
+}
+.carousel {
+  height: 100vh !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  height: 100vh !important;
+  /*min-width: 100vw;*/
+  position: absolute;
+  transform: translate(-50%,0);
+}
+/*.conteiner {position: relative;
+	top: 700px !important;}*/
+.carousel-caption {
+    top: 60vh;
+    bottom: auto;
 }
 .btn-primary {
   background: rgba(0,0,0,0.3);
