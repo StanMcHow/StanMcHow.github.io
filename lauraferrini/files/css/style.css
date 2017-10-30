@@ -19,7 +19,7 @@ body{
   left:2vw;
 }
 .navbar-brand img{
-  min-width: 50px;
+  min-width: 60px;
   width: 10vw;
 }
 .navbar{height: 8vw;
@@ -113,7 +113,7 @@ border:transparent;}
   min-height: 100vh;
   max-width: 800vw !important;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   img.second-slide{
   left: 35%;
   transform: translate(-30%,0);
