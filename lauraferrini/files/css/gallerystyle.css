@@ -11,6 +11,9 @@ body .navbar-nav .active a{
   color: #b5b5b2 !important;
   height: 50px;
 }
+.in{background:rgba(0,0,0,0.3);
+border:transparent;}
+
 .navbar{
   height: 8vw;
   min-height: 50px;
@@ -82,32 +85,7 @@ border:transparent;
 .carousel-inner {
   overflow: visible;
 }
-.carousel-indicators li {
-  text-indent: 0px !important;
-  width: 70px;
-  height: 70px;
-overflow: hidden;
-border:transparent;
-display: block !important;
-}
-.carousel-indicators > li > img {
-  max-width: 70px;
-  max-height: 70px;
-  position: relative;
-  z-index: 1000;
-  top: 50%;
-  transform: translate(0, -50%);
-}
 
-
-.carousel-indicators li.active {
-  text-indent: 0px !important;
-  width: 70px;
-  height: 70px;
-  overflow: hidden;
-  border:transparent;
-
-}
 .carousel.fade{
   opacity: 1;
 }
@@ -125,17 +103,12 @@ display: block !important;
   opacity: 1;
 }
 
-.carousel-indicators {
-  width: 100% !important;
-  bottom: 0px !important;
-  margin-bottom: 0px !important;
-}
 .gallerytrigger{
   text-align: center;
 }
 .gallerytrigger img{
-  max-width: 350px;
-  
+  width: 350px;
+  max-width: 90vw;  
   margin: 5px;
   display: inline-block;
 }
@@ -168,9 +141,6 @@ body .dressview {
 }
 body .dressview img {
   max-height: calc(100vh - 10vw);
-}
-.indicatorforcarousel .carousel-indicators {
-  position: relative;
 }
 .describtion{
   float: left;
@@ -220,12 +190,7 @@ height: 70px;
 body {
   background: #fafae1;
 }
-/*.dresslabel option{
-  height: 80px;
-}
-.dresslabel::-webkit-scrollbar{
-  display: none;
-}*/
+
 .gallery-control {
   position: absolute;
   bottom: 15px;
@@ -272,4 +237,7 @@ table {
 }
 .tablebrand {
   width: 150px;
+}
+@media (orientation: portrait) {
+	
 }
