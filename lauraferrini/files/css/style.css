@@ -102,7 +102,21 @@ border:transparent;}
 .btn-primary:hover {
   background: rgba(0,0,0,0.5);
 }
-.carousel-caption img {
+.carousel-caption .brandname {
   width: 27vw;
+  min-width: 270px;
+  min-height: 30px;
   height: 3vw !important;
+}
+.item > img {
+  min-width: 100vw !important;
+  min-height: 100vh;
+  max-width: 800vw !important;
+}
+@media (max-width: 768px){
+  img.second-slide{
+  left: 35%;
+  transform: translate(-30%,0);
+}
+
 }
