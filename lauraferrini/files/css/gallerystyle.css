@@ -4,7 +4,7 @@
   left:2vw;
 }
 .navbar-brand img{
-  min-width: 50px;
+  min-width: 60px;
   width: 10vw;
 }
 body .navbar-nav .active a{
@@ -60,7 +60,14 @@ body{
     display: inline-block;
     float:none;
     text-transform: uppercase;
-}}
+}
+.navbar-nav > li > a{
+    top: 2vw; 
+  }
+  .carousel-indicators{
+    display: none;
+  }
+}
 .navbar-nav > li {
     font-size: 20px;
      text-transform: uppercase;
@@ -71,10 +78,14 @@ body{
 .in{
 border:transparent;
 }
-@media (min-width: 768px) { 
-  .navbar-nav > li > a{
-    top: 2vw; 
+@media (max-width: 768px) { 
+  .dresslabel {
+  	display: none;
   }
+  body .dressview img {
+  max-height: calc(100vh - 80px);
+  max-width: calc(100vw-20px);
+}
 }/*end of navbar begin of carousel*/
 .carousel {
   max-height: 100%;
