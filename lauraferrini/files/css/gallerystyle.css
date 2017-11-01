@@ -230,3 +230,7 @@ table {
 .tablebrand {
   width: 150px;
 }
+@media (max-width: 741px){
+  .gallerytrigger img{
+  width: 90vw;
+}
