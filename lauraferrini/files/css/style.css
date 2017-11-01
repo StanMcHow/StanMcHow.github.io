@@ -112,9 +112,13 @@ border:transparent;}
   min-height: 100vh;
   max-width: 800vw !important;
 }
-@media (max-width: 767px){
-  img.second-slide{
-  left: 35%;
+@media (max-width: 820px){
+  img.third-slide{
+  left: 50%;
   transform: translate(-30%,0);
 }
+}
+img.third-slide{
+  left: 0;
+  transform: translate(0,0);
 }
