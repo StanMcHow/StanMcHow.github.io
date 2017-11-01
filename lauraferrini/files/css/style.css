@@ -102,10 +102,10 @@ border:transparent;}
   background: rgba(0,0,0,0.5);
 }
 .carousel-caption .brandname {
-  width: 27vw;
+  width: 36vw;
   min-width: 270px;
   min-height: 30px;
-  height: 3vw !important;
+  height: 4vw !important;
 }
 .item > img {
   min-width: 100vw !important;
