@@ -102,3 +102,52 @@ border:transparent;
     top: 2vw; 
   }
 }
+.galimg {
+  background-size: cover;
+  background-position: 50% 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.a1 {
+  width: 350px;
+  height: 350px;
+}
+.a2 {
+  width: 350px;
+  height: 400px;
+}
+.a3 {
+  width: 350px;
+  height: 450px;
+}
+.a4 {
+  width: 350px;
+  height: 500px;
+}
+.a5 {
+  width: 350px;
+  height: 550px;
+}
+.a6 {
+  width: 350px;
+  height: 600px;
+}
+.a7 {
+  width: 350px;
+  height: 650px;
+}
+.a8 {
+  width: 350px;
+  height: 700px;
+}
+.a9 {
+  width: 350px;
+  height: 750px;
+}
+.a0 {
+  width: 350px;
+  height: 800px;
+}
+.gallerytrigger{
+  text-align: center;
+}
