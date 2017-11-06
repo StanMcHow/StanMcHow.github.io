@@ -234,3 +234,14 @@ table {
   .gallerytrigger img{
   width: 90vw;
 }
+.galwidth {
+  width: 1000px;
+  min-width: 70vw;
+  max-width: 98vw;
+}
+@media (min-width: 742px){
+  .gallerytrigger img{
+  width: 20vw;
+  min-width: 350px;
+  max-width: 90vw;
+}
