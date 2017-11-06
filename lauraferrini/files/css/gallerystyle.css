@@ -234,7 +234,7 @@ table {
   .gallerytrigger img{
   width: 90vw;
 }
-.galwidth {
+body .galwidth {
   width: 1000px !important;
   min-width: 70vw !important;
   max-width: 98vw !important;
