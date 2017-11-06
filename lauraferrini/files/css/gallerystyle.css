@@ -241,7 +241,7 @@ table {
 }
 @media (min-width: 742px){
   .gallerytrigger img{
-  width: 20vw;
+  width: 20vw !important;
   min-width: 350px;
   max-width: 90vw;
 }
