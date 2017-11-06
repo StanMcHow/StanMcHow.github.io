@@ -112,13 +112,13 @@ border:transparent;
 .gallerytrigger{
   text-align: center;
 }
-/*.gallerytrigger img{
+.gallerytrigger img{
   width: 350px;
   max-width: 90vw;  
   margin: 5px;
   display: inline-block;
 }
-*/.close {
+.close {
   position: absolute;
   top: 0px;
   right: -150px;
