@@ -113,8 +113,9 @@ border:transparent;
   text-align: center;
 }
 .gallerytrigger img{
-  width: 350px;
-  max-width: 90vw;  
+  width: 20vw;
+  min-width: 350px;
+  max-width: 90vw;
   margin: 5px;
   display: inline-block;
 }
@@ -235,10 +236,4 @@ body .galwidth {
   width: 1000px !important;
   min-width: 70vw !important;
   max-width: 98vw !important;
-}
-@media (min-width: 742px){
-  .gallerytrigger img{
-  width: 20vw !important;
-  min-width: 350px !important;
-  max-width: 90vw !important;
 }
