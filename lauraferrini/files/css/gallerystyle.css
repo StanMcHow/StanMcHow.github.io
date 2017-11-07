@@ -134,7 +134,7 @@ border:transparent;
 body .dressview {
   left: 15px;
   float: left;
-  max-width: 600px;
+ /* max-width: 600px;*/
   height: 100%;
  
 }
