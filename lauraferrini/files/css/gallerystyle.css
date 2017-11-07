@@ -164,7 +164,7 @@ height: 70px;
 }
 .centergallery {
   position: relative;
-  width: 90vw;
+  width: 80vw;
   /*max-width: 99vw;*/
   left: 50%;
   transform: translate(-50%, 0);
