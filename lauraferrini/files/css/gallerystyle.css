@@ -80,7 +80,7 @@ border:transparent;
 }
 @media (max-width: 768px) { 
   .dresslabel {
-  	display: none;
+    display: none;
   }
   body .dressview img {
   max-height: calc(100vh - 80px);
@@ -164,8 +164,9 @@ height: 70px;
 }
 .centergallery {
   position: relative;
-  width: 65vw;
-  /*max-width: 99vw;*/
+  min-width: 65vw;
+  width: 1000px;
+  max-width: 99vw;
   left: 50%;
   transform: translate(-50%, 0);
 }
