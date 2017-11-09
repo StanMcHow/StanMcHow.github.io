@@ -169,6 +169,7 @@ height: 70px;
   max-width: 99vw;
   left: 50%;
   transform: translate(-50%, 0);
+  text-align: justify;
 }
 .dresslabel {
   text-align: center;
