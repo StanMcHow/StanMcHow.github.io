@@ -165,7 +165,7 @@ height: 70px;
 .centergallery {
   position: relative;
   /*min-width: 65vw;*/
-  width: calc(100vh - 10vw);
+  width: calc(100vh - 10vw+500px);
   max-width: 99vw;
   left: 50%;
   transform: translate(-50%, 0);
