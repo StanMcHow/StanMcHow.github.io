@@ -164,12 +164,11 @@ height: 70px;
 }
 .centergallery {
   position: relative;
-  min-width: 65vw;
-  width: 1000px;
+  /*min-width: 65vw;*/
+  width: calc(100vh - 10vw);
   max-width: 99vw;
   left: 50%;
   transform: translate(-50%, 0);
-  text-align: justify;
 }
 .dresslabel {
   text-align: center;
