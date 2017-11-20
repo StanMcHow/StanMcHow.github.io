@@ -70,16 +70,15 @@ body{
   .carousel-indicators{
     display: none;
   }
-  .centerphoto{
+  .dressview{
     height: calc(100vh - 10vw);
     width: calc(100vh - 10vw);
     
     display: inline-block;
   }
-  .centerphoto .dressview{
-    left: 50%;
-    margin: 0, auto;
-    transform: translate(-50%, 0) !important;
+  .carousel-inner {
+    top: 50%;
+    transform: translate(0, -50%);
   }
 }
 .navbar-nav > li {
@@ -145,13 +144,6 @@ border:transparent;
   border-radius: 20px;
 }
 
-body .dressview {
-  left: 15px;
-  float: left;
- max-width: calc(100vh - 10vw);
-  height: 100%;
- 
-}
 body .dressview img {
   max-height: calc(100vh - 10vw);
 }
