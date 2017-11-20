@@ -73,10 +73,20 @@ body{
   .dressview{
     height: calc(100vh - 10vw);
     width: calc(100vh - 10vw);
-    
     display: inline-block;
   }
   .carousel-inner {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .item{
+    height: 100%;
+    border: solid;
+    
+  }
+  .item img{
+    position: relative;
     top: 50%;
     transform: translate(0, -50%);
   }
