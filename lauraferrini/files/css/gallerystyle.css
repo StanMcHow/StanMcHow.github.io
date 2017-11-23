@@ -276,4 +276,8 @@ body .galwidth {
   .allcontact table {
   top: 20vh;
 }
+.allcontact td {
+  height: 6vh !important;
+}
+
 }
