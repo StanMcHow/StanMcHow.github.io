@@ -243,7 +243,17 @@ table {
 .tablebrand {
   width: 150px;
 }
+.contactimage{
+  max-width: 800px;
+  float: right;
+}
+.allcontact table {
+  float: left;
+}
 @media (max-width: 741px){
+  .contactimage {
+    display: none;
+  }
   .gallerytrigger img{
   width: 90vw;
 }
@@ -251,4 +261,5 @@ body .galwidth {
   width: 1000px !important;
   min-width: 70vw !important;
   max-width: 98vw !important;
+}
 }
