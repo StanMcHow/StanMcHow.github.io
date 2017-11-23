@@ -228,7 +228,8 @@ td {
   font-size: 18px;
 }
 .contactname {
-  width: 20px;
+  width: 40px;
+  text-align: center;
 }
 table {
   margin: auto;
@@ -244,8 +245,16 @@ table {
   width: 150px;
 }
 .contactimage{
-  max-width: 800px;
+  width: calc(100% - 435px);
   float: right;
+}
+.allcontact{
+
+  position: relative;
+  min-width: 80vw;
+  width: 1150px;
+  max-width: 99vw;
+ 
 }
 .allcontact table {
   float: left;
@@ -261,5 +270,10 @@ body .galwidth {
   width: 1000px !important;
   min-width: 70vw !important;
   max-width: 98vw !important;
+}
+}
+@media (min-width: 742px){
+  .allcontact table {
+  top: 20vh;
 }
 }
