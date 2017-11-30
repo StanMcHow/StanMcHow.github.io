@@ -13,7 +13,7 @@ body .navbar-nav .active a{
 }
 .in{background:rgba(0,0,0,0.3);
 border:transparent;}
-.navbar{
+.navbar-static-top{
   height: 8vw;
   min-height: 50px;
   z-index: 100 !important;
@@ -27,13 +27,8 @@ border:transparent;}
 }
 body{
   font-family: 'Constantia';
-}
-.brand{
-  font-family: 'Constantia';
-  font-size: 6vw;
-}
-.navbar-brand {
-  font-size: 160%;
+  height: 100%;
+
 }
 .social{
   width: 20px;
@@ -78,11 +73,9 @@ body{
   .carousel-inner {
     width: 100%;
     height: 100%;
-    
   }
   .item{
     height: 100%;
-    
   }
   .item img{
     position: relative;
@@ -112,7 +105,29 @@ border:transparent;
   max-height: calc(100vh - 80px);
   max-width: calc(100vw - 20px);
 }
+
+.describtion {
+  float: none;
+}
 }/*end of navbar begin of carousel*/
+.gallerycontrol{
+  display: block;
+  float: none;
+  clear: left;
+  margin-bottom: 50px;
+
+}
+.gallery-control{
+  position: relative;
+  display: block;
+  font-size: 20px;
+}
+.gallery-control.left {
+  float: left;
+}
+.gallery-control.right{
+  float: right;
+}
 .carousel {
   max-height: 100%;
 }
@@ -156,7 +171,6 @@ border:transparent;
   border-color: #ffffff;
   border-radius: 20px;
 }
-
 body .dressview img {
   max-height: calc(100vh - 10vw);
 }
@@ -196,17 +210,7 @@ height: 70px;
 body {
   background: #fafae1;
 }
-.gallery-control {
-  position: absolute;
-  bottom: 15px;
-  font-size: 20px;
-}
-.gallery-control.left {
-  left: 30px;
-}
-.gallery-control.right{
-  right: 30px;
-}
+
 .brandinfo img {
   max-height: calc(100vh - 10vw);
   max-width: 50%;
@@ -249,12 +253,10 @@ table {
   float: right;
 }
 .allcontact{
-
   position: relative;
   min-width: 80vw;
   width: 1150px;
   max-width: 99vw;
- 
 }
 .allcontact table {
   float: left;
@@ -279,5 +281,23 @@ body .galwidth {
 .allcontact td {
   height: 6vh !important;
 }
-
+}
+#footer {
+  height: 40px;
+  clear: both;
+  color: #ffffff;
+  background-color: #222222;
+}
+#footer p {
+  padding-top: 10px;
+  float: left;
+}
+.footer-right {
+  float: right;
+  display: inline;
+  margin-top: 10px;
+}
+.footer-right a {
+  display: inline;
+  float: left;
 }
