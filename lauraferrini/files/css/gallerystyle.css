@@ -49,6 +49,8 @@ body{
     float: none;
 }
 .describtion{
+  float: left;
+  width: 250px;
   margin-top: 20vh;
 }
 .navbar .navbar-collapse {
@@ -58,6 +60,9 @@ body{
     display: inline-block;
     float:none;
     text-transform: uppercase;
+}
+body .dressview img {
+  max-height: calc(100vh - 10vw);
 }
 .navbar-nav > li > a{
     top: 2vw; 
@@ -69,6 +74,7 @@ body{
     height: calc(100vh - 10vw);
     width: calc(100vh - 10vw);
     display: inline-block;
+    max-width: calc(100vw - 360px);
   }
   .carousel-inner {
     width: 100%;
@@ -101,13 +107,27 @@ border:transparent;
   .dresslabel {
     display: none;
   }
-  body .dressview img {
+  .navbar-right{
+    display: none;
+  }
+  /*body .dressview img {
   max-height: calc(100vh - 80px);
   max-width: calc(100vw - 20px);
-}
+}*/
 
 .describtion {
   float: none;
+  width: 95vw;
+  
+}
+.carousel-inner {
+  width: 100%;
+}
+.item{
+  width: 100%;
+}
+.item img {
+  width: 95vw;
 }
 }/*end of navbar begin of carousel*/
 .gallerycontrol{
@@ -131,9 +151,7 @@ border:transparent;
 .carousel {
   max-height: 100%;
 }
-.carousel-inner {
-  overflow: visible;
-}
+
 .carousel.fade{
   opacity: 1;
 }
@@ -171,12 +189,9 @@ border:transparent;
   border-color: #ffffff;
   border-radius: 20px;
 }
-body .dressview img {
-  max-height: calc(100vh - 10vw);
-}
+
 .describtion{
-  float: left;
-  width: 250px;
+  margin-left: 20px; 
 }
 .indicatorforcarousel{
   float: right;
