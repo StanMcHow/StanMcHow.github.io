@@ -27,8 +27,6 @@ border:transparent;}
 }
 body{
   font-family: 'Constantia';
-  height: 100%;
-
 }
 .social{
   width: 20px;
@@ -44,6 +42,12 @@ body{
   color: #ffffff;
 }
 @media(min-width:768px){
+  .allcontact table {
+  top: 20vh;
+}
+.allcontact td {
+  height: 6vh !important;
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -92,6 +96,36 @@ body .dressview img {
     top: calc(50vh - 5vw);
     transform: translateY(-50%);
   }
+
+.brandinfo img {
+  max-height: calc(100vh - 10vw);
+  max-width: 50%;
+  float: right;
+}
+.brandtext {
+  float: left;
+  max-width: 47%;
+  text-align: justify;
+}
+.branddescription{
+  max-width: 1100px;
+  margin: auto;
+}
+.branddescription h1 {
+  text-align: center;
+}
+#footer.smallfooter{
+position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+}
+#footer.contactfooter{
+position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .navbar-nav > li {
     font-size: 20px;
@@ -104,9 +138,27 @@ body .dressview img {
 border:transparent;
 }
 @media (max-width: 768px) { 
+
+  .contactimage {
+    display: none;
+  }
+  .gallerytrigger img{
+  width: 90vw;
+}
+body .galwidth {
+  width: 1000px !important;
+  min-width: 70vw !important;
+  max-width: 98vw !important;
+}
   .dresslabel {
     display: none;
   }
+  .branddescription{
+  text-align: center;
+}
+.brandtext {
+  padding-left: 2%;
+}
   .navbar-right{
     display: none;
   }
@@ -114,7 +166,16 @@ border:transparent;
   max-height: calc(100vh - 80px);
   max-width: calc(100vw - 20px);
 }*/
-
+.brandinfo img {
+  
+  max-width: 95vw;
+  float: none;
+}
+.brandtext {
+  float: none;
+  max-width: 95vw;
+  text-align: justify;
+}
 .describtion {
   float: none;
   width: 95vw;
@@ -226,23 +287,6 @@ body {
   background: #fafae1;
 }
 
-.brandinfo img {
-  max-height: calc(100vh - 10vw);
-  max-width: 50%;
-  float: right;
-}
-.brandtext {
-  float: left;
-  max-width: 47%;
-  text-align: justify;
-}
-.branddescription{
-  max-width: 1100px;
-  margin: auto;
-}
-.branddescription h1 {
-  text-align: center;
-}
 td {
   font-size: 18px;
 }
@@ -276,27 +320,7 @@ table {
 .allcontact table {
   float: left;
 }
-@media (max-width: 741px){
-  .contactimage {
-    display: none;
-  }
-  .gallerytrigger img{
-  width: 90vw;
-}
-body .galwidth {
-  width: 1000px !important;
-  min-width: 70vw !important;
-  max-width: 98vw !important;
-}
-}
-@media (min-width: 742px){
-  .allcontact table {
-  top: 20vh;
-}
-.allcontact td {
-  height: 6vh !important;
-}
-}
+
 #footer {
   height: 40px;
   clear: both;
