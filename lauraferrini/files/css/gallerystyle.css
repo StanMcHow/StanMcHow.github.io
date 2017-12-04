@@ -42,6 +42,14 @@ body{
   color: #ffffff;
 }
 @media(min-width:768px){
+
+.gallerytrigger img{
+  width: 25vw;
+  min-width: 350px;
+  max-width: 90vw;
+  margin: 5px;
+  display: inline-block;
+}
   .allcontact table {
   top: 20vh;
 }
@@ -138,17 +146,17 @@ position: fixed !important;
 border:transparent;
 }
 @media (max-width: 768px) { 
-
   .contactimage {
     display: none;
   }
   .gallerytrigger img{
-  width: 90vw;
+  width: 90vw !important;
+  margin-bottom: 2vw;
 }
 body .galwidth {
-  width: 1000px !important;
-  min-width: 70vw !important;
-  max-width: 98vw !important;
+  width: 1000px;
+  min-width: 70vw;
+  max-width: 98vw;
 }
   .dresslabel {
     display: none;
@@ -231,13 +239,6 @@ body .galwidth {
 }
 .gallerytrigger{
   text-align: center;
-}
-.gallerytrigger img{
-  width: 25vw;
-  min-width: 350px;
-  max-width: 90vw;
-  margin: 5px;
-  display: inline-block;
 }
 .close {
   position: absolute;
