@@ -334,6 +334,7 @@ table {
 #footer p {
   padding-top: 10px;
   float: left;
+  padding-left: 10px;
 }
 .footer-right {
   float: right;
