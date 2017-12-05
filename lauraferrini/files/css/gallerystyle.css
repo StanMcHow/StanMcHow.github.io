@@ -23,7 +23,7 @@ border:transparent;}
 }
   @font-face {
   font-family: 'Constantia';
-  src: url('../fonts/Constantia.ttf') format('truetype');
+  src: url('../fonts/constant.ttf') format('truetype'), url('../fonts/constanti.ttf') format('truetype'), url('../fonts/constantb.ttf') format('truetype'), url('../fonts/constantz.ttf') format('truetype'), ;
 }
 body{
   font-family: 'Constantia';
@@ -132,6 +132,9 @@ position: fixed !important;
   right: 0;
 }
 }
+.inlineword{
+  white-space: nowrap;
+}
 #footer.contactfooter{
 position: fixed !important;
   bottom: 0;
@@ -149,6 +152,9 @@ position: fixed !important;
 border:transparent;
 }
 @media (max-width: 768px) { 
+  .describtion h1 {
+text-align: center;
+  }
   .contactimage {
     display: none;
   }
@@ -344,4 +350,8 @@ table {
 .footer-right a {
   display: inline;
   float: left;
+}
+.carousel .container {
+  width: 100vw;
+  height: 100vh;
 }
