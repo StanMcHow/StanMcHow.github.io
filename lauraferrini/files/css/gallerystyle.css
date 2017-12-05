@@ -31,8 +31,11 @@ body{
 .social{
   width: 20px;
 }
-.socialinst{
-  width: 25px;
+#footer .social {
+  margin-right: 10px;
+}
+.navbar-right{
+  margin-right: -7px;
 }
 .navbar-right a {
   padding-left: 7px !important;
