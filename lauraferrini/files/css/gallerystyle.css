@@ -219,6 +219,13 @@ body .galwidth {
   position: relative;
   display: block;
   font-size: 20px;
+  color: #444444;
+}
+.gallery-control:hover,
+.gallery-control:focus,
+.gallery-control:active{
+  color: #999999;
+  text-decoration: none;
 }
 .gallery-control.left {
   float: left;
@@ -354,4 +361,7 @@ table {
 .carousel .container {
   width: 100vw;
   height: 100vh;
+}
+.gallery-control .glyphicon {
+  top: 3px;
 }
