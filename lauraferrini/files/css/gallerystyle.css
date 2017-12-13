@@ -152,6 +152,12 @@ border:transparent;
   min-width: 66vw;
   width: 1300px;
 }
+.gallerycontrol {
+  max-width: 99vw;
+  min-width: 66vw;
+  width: 1300px;
+  margin: auto;
+}
 .footer-wrapper {
   max-width: 99vw;
   min-width: 66vw;
