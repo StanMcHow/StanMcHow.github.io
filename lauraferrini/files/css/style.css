@@ -15,7 +15,13 @@ body{
 .navbar .navbar-brand{
   position:relative;
   top:-10px;
-  left:2vw;
+  left:20px;
+}
+.navbar-right {
+  padding-right: 20px;
+}
+.navbar-toggle {
+  right: 20px;
 }
 .navbar-brand img{
   min-width: 60px;
@@ -34,6 +40,11 @@ body{
 }
 .socialinst{
   width: 25px;
+}
+.navbar .container-fluid {
+  max-width: 99vw;
+  min-width: 66vw;
+  width: 1300px;
 }
 .navbar-right a {
   padding-left: 7px !important;
@@ -87,6 +98,7 @@ border:transparent;}
   /*min-width: 100vw;*/
   position: absolute;
   transform: translate(-50%,0);
+  object-fit: cover;
 }
 /*.conteiner {position: relative;
 	top: 700px !important;}*/
@@ -114,8 +126,8 @@ border:transparent;}
 }
 @media (max-width: 820px){
   img.third-slide{
-  left: 50%;
-  transform: translate(-30%,0);
+  left: 50% !important;
+  transform: translate(-32%,0) !important;
 }
 }
 img.third-slide{

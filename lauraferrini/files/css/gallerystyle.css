@@ -1,7 +1,13 @@
+.navbar-right {
+  padding-right: 25px !important;
+}
 .navbar .navbar-brand{
   position:relative;
   top:-10px;
-  left:2vw;
+  left:20px;
+}
+.navbar-toggle {
+  right: 20px;
 }
 .navbar-brand img{
   min-width: 60px;
@@ -45,7 +51,9 @@ body{
   color: #ffffff;
 }
 @media(min-width:768px){
-
+.allcontact table {
+  float: left;
+}
 .gallerytrigger img{
   width: 25vw;
   min-width: 350px;
@@ -107,7 +115,6 @@ body .dressview img {
     top: calc(50vh - 5vw);
     transform: translateY(-50%);
   }
-
 .brandinfo img {
   max-height: calc(100vh - 10vw);
   max-width: 50%;
@@ -125,7 +132,6 @@ body .dressview img {
 .branddescription h1 {
   text-align: center;
 }
-
 }
 .inlineword{
   white-space: nowrap;
@@ -140,6 +146,17 @@ body .dressview img {
   }
 .in{
 border:transparent;
+}
+.navbar .container-fluid {
+  max-width: 99vw;
+  min-width: 66vw;
+  width: 1300px;
+}
+.footer-wrapper {
+  max-width: 99vw;
+  min-width: 66vw;
+  width: 1300px;
+  margin: auto;
 }
 @media (max-width: 768px) { 
   .describtion h1 {
@@ -174,7 +191,6 @@ body .galwidth {
   max-width: calc(100vw - 20px);
 }*/
 .brandinfo img {
-  
   max-width: 95vw;
   float: none;
 }
@@ -202,7 +218,7 @@ body .galwidth {
   display: block;
   float: none;
   clear: left;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 
 }
 .gallery-control{
@@ -324,9 +340,7 @@ table {
   width: 1150px;
   max-width: 99vw;
 }
-.allcontact table {
-  float: left;
-}
+
 
 #footer {
   height: 40px;
@@ -356,5 +370,5 @@ table {
   top: 3px;
 }
 .fitfooter {
-  min-height: calc(100vh - 108px);
+  min-height: calc(100vh - 40px);
 }
