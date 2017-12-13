@@ -100,6 +100,9 @@ border:transparent;}
   transform: translate(-50%,0);
   object-fit: cover;
 }
+.item > img {
+  object-position: top;
+}
 /*.conteiner {position: relative;
 	top: 700px !important;}*/
 .carousel-caption {
