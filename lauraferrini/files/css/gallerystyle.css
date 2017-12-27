@@ -57,7 +57,7 @@ body{
 .gallerytrigger img{
   width: 25vw;
   min-width: 350px;
-  max-width: 90vw;
+  max-width: 720px;
   margin: 5px;
   display: inline-block;
 }
@@ -87,8 +87,9 @@ body{
 body .dressview img {
   max-height: calc(100vh - 10vw);
 }
-.navbar-nav > li > a{
+.navbar-nav{
     top: 2vw; 
+    position: relative;
   }
   .carousel-indicators{
     display: none;
@@ -164,6 +165,12 @@ border:transparent;
   width: 1300px;
   margin: auto;
 }
+body .galwidth {
+  width: 2300px;
+  
+  max-width: 95vw;
+  display: inline-block;
+}
 @media (max-width: 768px) { 
   .describtion h1 {
 text-align: center;
@@ -175,11 +182,7 @@ text-align: center;
   width: 90vw !important;
   margin-bottom: 2vw;
 }
-body .galwidth {
-  width: 1000px;
-  min-width: 70vw;
-  max-width: 98vw;
-}
+
   .dresslabel {
     display: none;
   }
