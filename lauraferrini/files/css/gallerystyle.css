@@ -29,7 +29,7 @@ border:transparent;}
 }
   @font-face {
   font-family: 'Constantia';
-  src: url('../fonts/constant.ttf') format('truetype'), url('../fonts/constanti.ttf') format('truetype'), url('../fonts/constantb.ttf') format('truetype'), url('../fonts/constantz.ttf') format('truetype');
+  src: url('../fonts/constan.ttf') format('truetype'), url('../fonts/constani.ttf') format('truetype'), url('../fonts/constanb.ttf') format('truetype'), url('../fonts/constanz.ttf') format('truetype');
 }
 body{
   font-family: 'Constantia';
@@ -379,5 +379,5 @@ table {
   top: 3px;
 }
 .fitfooter {
-  min-height: calc(100vh - 40px);
+  min-height: calc(100vh - 50px);
 }
