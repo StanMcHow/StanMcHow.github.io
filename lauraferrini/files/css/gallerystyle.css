@@ -99,6 +99,8 @@ body .dressview img {
     width: calc(100vh - 10vw);
     display: inline-block;
     max-width: calc(100vw - 360px);
+    max-width: 1285px !important;
+    max-height: 1285px !important;
   }
   .carousel-inner {
     width: 100%;
@@ -297,8 +299,10 @@ width: 70px;
 height: 70px;
 }
 .dresslabel img {
-  max-width: 70px;
-  max-height: 70px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
 }
 .dressradio {
   display: none;
