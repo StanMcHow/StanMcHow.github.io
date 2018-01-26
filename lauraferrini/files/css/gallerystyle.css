@@ -177,6 +177,11 @@ body .galwidth {
   .describtion h1 {
 text-align: center;
   }
+  .centergallery {
+  
+  width: 99vw;
+  
+}
   .contactimage {
     display: none;
   }
@@ -310,8 +315,8 @@ height: 70px;
 .centergallery {
   position: relative;
   /*min-width: 65vw;*/
-  width: calc(100vh - 10vw + 400px);
-  max-width: 99vw;
+  width: 1700px;
+  max-width: calc(100vh - 10vw + 400px);
   left: 50%;
   transform: translate(-50%, 0);
 }
