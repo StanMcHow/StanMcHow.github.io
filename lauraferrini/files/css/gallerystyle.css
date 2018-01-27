@@ -173,6 +173,9 @@ body .galwidth {
   max-width: 95vw;
   display: inline-block;
 }
+.describtion p {
+font-size: 16px;
+  }
 @media (max-width: 768px) { 
   .describtion h1 {
 text-align: center;
