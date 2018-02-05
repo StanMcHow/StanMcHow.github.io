@@ -51,9 +51,7 @@ body{
   color: #ffffff;
 }
 @media(min-width:768px){
-.allcontact table {
-  float: left;
-}
+
 .gallerytrigger img{
   width: 25vw;
   min-width: 350px;
@@ -61,11 +59,9 @@ body{
   margin: 5px;
   display: inline-block;
 }
-  .allcontact table {
-  top: 20vh;
-}
-.allcontact td {
-  height: 6vh !important;
+
+.contactinfo{
+  transform: translateY(100%);
 }
 .navbar .navbar-nav {
     display: inline-block;
@@ -363,8 +359,9 @@ table {
   width: 150px;
 }
 .contactimage{
-  width: calc(100% - 435px);
+  width: calc(100% - 500px);
   float: right;
+  transform: translateY(-150px);
 }
 .allcontact{
   position: relative;
