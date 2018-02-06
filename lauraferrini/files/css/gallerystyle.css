@@ -63,6 +63,9 @@ body{
 .contactinfo{
   transform: translateY(100%);
 }
+.contactinfo img{
+  margin-right: 10px;
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
